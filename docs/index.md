@@ -26,4 +26,4 @@ Name | Arrival | Departure | skis or board
  Benjamin' | | | board and skis.
  Lance | | | -
  Margaret | | | no skis
- Chris | 1:44 AA665 from LGA | 1:20 AA2432 to JFK | board bag
+ Chris | 1:00 AA123 from LGA | 1:00 AA456 to JFK | board bag
