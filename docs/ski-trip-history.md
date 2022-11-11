@@ -1,5 +1,7 @@
 ## Ski Trip History
 
+February 2022 Telluride, Colorado
+
 February 2021 Vail, Colorado
 
 February 2020 Park City, Utah

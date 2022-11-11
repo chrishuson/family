@@ -26,6 +26,6 @@ Name | Arrival | Departure | skis or board
  Benjammin' | | | board and skis.
  Lance | | | -
  Margaret | | | no skis
- Chris | 1:00 AA123 from LGA | 1:00 AA456 to JFK | board bag
+ Chris | Saturday 7:18PM DL from LGA | 4:05 DL733 to LGA | board bag
 
 [ski trip history](ski-trip-history)
