@@ -16,9 +16,9 @@ Please review the [grocery list](groceries)
 
 Name | Arrival | Departure | skis or board
 ---|---|----|---|
- John |	| | -
+ John | 11:22 AA1328 from CLT | 2:06 AA1830 to CLT | -
+ Mike | 11:22 AA1328 from CLT | 2:06 AA1830 to CLT | hard case w board + carry on bag.
  Joe | | | not this year
- Mike | | | hard case w board + carry on bag.
  Tim | | | no skis
  Teo | | | no skis
  Peter | | | no skis
