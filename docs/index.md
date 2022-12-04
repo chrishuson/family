@@ -26,6 +26,6 @@ Name | Arrival | Departure | skis or board
  Benjammin' | | | board and skis.
  Lance | | | -
  Margaret | | | no skis
- Chris | Saturday 7:18PM DL from LGA | 4:05 DL733 to LGA | board bag
+ Chris | Saturday 7:52pm DL from LGA | 10:00am DL733 to LGA | board bag
 
 [ski trip history](ski-trip-history)
