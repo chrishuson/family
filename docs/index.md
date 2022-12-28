@@ -24,8 +24,8 @@ Name | Arrival | Departure | skis or board
  Peter | | | no skis
  Steve | | | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
  Benjammin' | | | board and skis.
- Lance | | | -
- Margaret | | | no skis
+ Lance | Arrives *Thursday* | | -
+ Margaret | Arrives *Saturday* | Thursday evening | no skis
  Chris | *Saturday* 7:52pm DL from LGA | 12:50pm DL936 to JFK | board bag
 
 [ski trip history](ski-trip-history)
