@@ -27,5 +27,6 @@ Name | Arrival | Departure | skis or board
  Lance | Arrives *Thursday* | | -
  Margaret | Arrives *Saturday* | Thursday evening | no skis
  Chris | *Saturday* 7:52pm DL from LGA | 12:50pm DL936 to JFK | board bag
+ Patrick | | | 
 
 [ski trip history](ski-trip-history)
