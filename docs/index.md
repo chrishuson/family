@@ -25,7 +25,7 @@ Name | Arrival | Departure | skis or board
  Steve | | | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
  Benjammin' | | | board and skis.
  Lance | Arrives *Thursday* | | -
- Margaret | Arrives *Saturday* | *Thursday* 5:50pm to BWI | no skis
+ Margaret | *Saturday* 6:10pm UA from BWI | *Thursday* 5:50pm to BWI | no skis
  Chris | *Saturday* 7:52pm DL from LGA | 12:50pm DL936 to JFK | board bag
  Patrick | | | 
 
