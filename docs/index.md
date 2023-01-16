@@ -24,7 +24,7 @@ Name | Arrival | Departure | skis or board
  Peter | 11:10 SW1300 from OAK | *Thursday* 5:10pm SW2336 to SFO | no skis
  Steve | | | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
  Benjammin' | | | board and skis.
- Lance | Arrives *Thursday* | | -
+ Lance | *Thursday* 1:08pm AA2361 | | -
  Margaret | *Saturday* 6:10pm UA393 from BWI | *Thursday* 5:50pm UA2258 to BWI | no skis
  Chris | *Saturday* 7:52pm DL from LGA | 12:50pm DL936 to JFK | board bag
 
