@@ -16,7 +16,7 @@ Please review the [grocery list](groceries)
 
 Name | Arrival | Departure | skis or board
 ---|---|----|---|
- Lance | *Thursday* 1:08pm AA2361 | | -
+ Lance | *Thursday* 1:08pm AA2361 | Sunday sometime, TBD | -
  Margaret | *Saturday* 6:10pm UA393 from BWI | *Thursday* 5:50pm UA2258 to BWI | no skis
  Chris | *Saturday* 7:52pm DL from LGA | 12:50pm DL936 to JFK | board bag
  Tim | 10:24 UA1366 from IAD | 5:57 UA2488 to IAD | no skis
