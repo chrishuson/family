@@ -24,8 +24,9 @@ Name | Arrival | Departure | skis or board
  Peter | 11:10 SW1300 from OAK | *Thursday* 5:10pm SW2336 to SFO | no skis
  John | 11:22 AA1328 from CLT | 2:06 AA1830 to CLT | -
  Mike | 11:22 AA1328 from CLT | 2:06 AA1830 to CLT | hard case w board + carry on bag.
- Benjammin' | 10:15am | 5:48pm | board and skis.
- Steve | ?? | ?? | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
+ Benjammin' | 10:15am DL776 from BOS | TBD | board and skis.
+ Matt | 10:15am DL776 from BOS | TBD | board and skis.
+ Steve | 3:20pm Alaska620 from SEA | 11:05am Alaska 682 to SEA | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
  Joe | | | not coming skiing this year
  Patrick | | | not coming skiing this year
 
