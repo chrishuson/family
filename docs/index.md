@@ -10,7 +10,7 @@ Conditions and travel intell:
 
 [Nordic trails](https://www.breckenridgenordic.com/)
 
-Please review the [grocery list](groceries)
+Please review the [grocery list]([groceries](https://docs.google.com/document/d/1i4ODs6pL9yMEJcBhlv133xWCDkWIRFX0/edit))
 "Who's hungry?!"
 ![](0903ski_JacksonHole_Mike.jpg)
 
