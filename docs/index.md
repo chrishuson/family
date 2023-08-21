@@ -12,20 +12,20 @@ Conditions and travel intell:
 
 Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yMEJcBhlv133xWCDkWIRFX0/edit)
 "Who's hungry?!"
-![](0903ski_JacksonHole_Mike.jpg)
+![Chef Mike!](0903ski_JacksonHole_Mike.jpg)
 
 Name | Arrival | Departure | skis or board
 ---|---|----|---|
  John |  |  | -
  Chris | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK | board bag
- Corey | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK | board bag
+ Corey | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK |
  Steve |  |  | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
  Benjammin' |  |  | board and skis
  Tim |  |  | no skis
  Peter |  |  | no skis
  Joe | | |
  Patrick | | |
- Lance |  |  | -
+ Lance |  |  |
 
  Mike ? |  |  |
  Margaret ? |  |  |
