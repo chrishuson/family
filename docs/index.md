@@ -1,6 +1,6 @@
-# Ski Breckenridge 2023
+# Ski Steamboat Springs 2024
 
-January 20-27, Saturday to Saturday
+January 20-27, Saturday to Saturday,
 Fly into Hayden
 
 Conditions and travel intell:
