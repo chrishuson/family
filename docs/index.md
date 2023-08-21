@@ -1,14 +1,14 @@
 # Ski Breckenridge 2023
 
-February 19-26, Sunday to Sunday
-Fly into Denver
+January 20-27, Saturday to Saturday
+Fly into Hayden
 
 Conditions and travel intell:
-[NOAA Forecast](https://forecast.weather.gov/MapClick.php?lat=39.4816&lon=-106.0667),
+[NOAA Forecast](https://forecast.weather.gov/MapClick.php?lat=40.4827&lon=-106.8289),
 [Ski blog](https://www.ski.com/blog/),
 [Snowbrains](https://snowbrains.com/)
 
-[Nordic trails](https://www.breckenridgenordic.com/)
+[Nordic trails](https://www.steamboatpilot.com/news/best-places-to-cross-country-ski-in-steamboat/)
 
 Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yMEJcBhlv133xWCDkWIRFX0/edit)
 "Who's hungry?!"
@@ -16,18 +16,20 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 
 Name | Arrival | Departure | skis or board
 ---|---|----|---|
- Lance | *Thursday* 1:08pm AA2361 | Sunday sometime, TBD | -
- Margaret | *Saturday* 6:10pm UA393 from BWI | *Thursday* 5:50pm UA2258 to BWI | no skis
- Chris | *Saturday* 7:52pm DL from LGA | 12:50pm DL936 to JFK | board bag
- Tim | 10:24 UA1366 from IAD | 5:57 UA2488 to IAD | no skis
- Teo | 10:24 UA1366 from IAD | 5:57 UA2488 to IAD | no skis
- Peter | 11:10 SW1300 from OAK | *Thursday* 5:10pm SW2336 to SFO | no skis
- Benjammin' | 11:10 AA1313 from PHL | 2:06 AA1830 to CLT | board and skis.
- Matt | 11:10 AA1313 from PHL | 2:06 AA1830 to CLT | hard case with skis + boot bag
- John | 11:22 AA1328 from CLT | 2:06 AA1830 to CLT | -
- Mike | 11:22 AA1328 from CLT | 2:06 AA1830 to CLT | hard case w board + carry on bag.
- Steve | 3:20pm Alaska620 from SEA | 11:05am Alaska 682 to SEA | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
- Joe | | | not coming skiing this year
- Patrick | | | not coming skiing this year
+ John |  |  | -
+ Chris | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK | board bag
+ Corey | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK | board bag
+ Steve |  |  | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
+ Benjammin' |  |  | board and skis
+ Tim |  |  | no skis
+ Peter |  |  | no skis
+ Joe | | |
+ Patrick | | |
+ Lance |  |  | -
+
+ Mike ? |  |  |
+ Margaret ? |  |  |
+ Scott ? |  |  | no skis
+ Teo ? |  |  | no skis
 
 [ski trip history](ski-trip-history)
