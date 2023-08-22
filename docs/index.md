@@ -14,22 +14,22 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 "Who's hungry?!"
 ![Chef Mike!](0903ski_JacksonHole_Mike.jpg)
 
-Name | Arrival | Departure | skis or board
+Name | Arrival | Departure |
 ---|---|----|---|
- John |  |  | -
- Chris | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK | board bag
+ John |  |  |
+ Chris | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK |
  Corey | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK |
- Steve |  |  | Snowboard & skis in a bag + 2 pairs of boots & clothing in another bag.
- Benjammin' |  |  | board and skis
- Tim |  |  | no skis
- Peter |  |  | no skis
+ Steve | Saturday 5:41pm Alaska 2016 from SEA | Saturday 6:00pm Alaska 2016 to SEA |
+ Benjammin' |  |  |
+ Tim |  |  |
+ Peter |  |  |
  Joe | | |
  Patrick | | |
  Lance |  |  |
 
  Mike ? |  |  |
  Margaret ? |  |  |
- Scott ? |  |  | no skis
- Teo ? |  |  | no skis
+ Scott ? |  |  |
+ Teo ? |  |  |
 
 [ski trip history](ski-trip-history)
