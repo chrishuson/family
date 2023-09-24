@@ -15,16 +15,16 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 ![Chef Mike!](0903ski_JacksonHole_Mike.jpg)
 
 Name | Arrival | Departure |
----|---|----|---|
- John |  |  |
+---|---|----|
  Chris | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK |
  Corey | Saturday 10:51am UA2219 from EWK | Saturday 12:00pm UA1559 to EWK |
+ John | Saturday 1:45am AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
+ Mike | Saturday 1:45am AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
+ Joe | Saturday 1:45am AA1924 from DFW | Saturday 12:37pm AA1923 to DFW |
  Peter | Saturday 2:21pm from SFO | Saturday 3:30pm to SFO |
  Steve | Saturday 5:41pm Alaska 2016 from SEA | Saturday 6:00pm Alaska 2016 to SEA |
  Benjammin' |  |  |
- Tim |  |  |
- Mike |  |  |
- Joe | | |
+ Tim |  |  | 
  Patrick | | |
  Lance |  |  |
  Margaret |  |  |
