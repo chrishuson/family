@@ -23,12 +23,12 @@ Name | Arrival | Departure |
  Joe | Saturday 1:45pm AA1924 from DFW | Saturday 12:37pm AA1923 to DFW |
  Peter | Saturday 2:21pm from SFO | Saturday 3:30pm to SFO |
  Steve | Saturday 5:41pm Alaska 2016 from SEA | Saturday 6:00pm Alaska 2016 to SEA |
+ Tim | Saturday 2:46 UA754 from IAD | Saturday 3:42 UA2002 to IAD |
  Benjammin' |  |  |
- Tim |  |  |
  Patrick | | |
  Lance |  |  |
  Margaret |  |  |
    |  |  |
- Scott? Teo ? |  |  |
+ Scott? |  |  |
 
 [ski trip history](ski-trip-history)
