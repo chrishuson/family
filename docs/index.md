@@ -22,13 +22,12 @@ Name | Arrival | Departure |
  Mike | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
  Joe | Saturday 1:45pm AA1924 from DFW | Saturday 12:37pm AA1923 to DFW |
  Peter | Saturday 2:21pm from SFO | Saturday 3:30pm to SFO |
+ Tim | Saturday 2:46pm UA754 from IAD | Saturday 3:42pm UA2002 to IAD |
  Steve | Saturday 5:41pm Alaska 2016 from SEA | Saturday 6:00pm Alaska 2016 to SEA |
- Tim | Saturday 2:46 UA754 from IAD | Saturday 3:42 UA2002 to IAD |
- Benjammin' |  |  |
+ Benjammin' | Saturday 8:14pm UA1049 from DEN | Saturday 12:35pm UA to ORD |
+ Charlotte | Saturday 8:14pm UA1049 from DEN | Thursday 7:13am UA1636 to DEN|
  Patrick | | |
  Lance |  |  |
  Margaret |  |  |
-   |  |  |
- Scott? |  |  |
 
 [ski trip history](ski-trip-history)
