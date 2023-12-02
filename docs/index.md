@@ -26,8 +26,8 @@ Name | Arrival | Departure |
  Steve | Saturday 5:41pm Alaska 2016 from SEA | Saturday 6:00pm Alaska 2016 to SEA |
  Benjammin' | Saturday 8:14pm UA1049 from DEN | Saturday 12:35pm UA to ORD |
  Charlotte | Saturday 8:14pm UA1049 from DEN | Thursday 7:13am UA1636 to DEN|
+ Lance | Friday | Saturday |
  Patrick | | |
- Lance |  |  |
  Margaret |  |  |
 
 [ski trip history](ski-trip-history)
