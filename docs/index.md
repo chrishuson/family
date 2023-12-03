@@ -18,6 +18,7 @@ Name | Arrival | Departure |
 ---|---|----|
  Chris | Saturday 10:08am UA2467 from EWK | Saturday 11:15am UA1559 to EWK |
  Corey | Saturday 10:08am UA2467 from EWK | Saturday 11:15am UA1559 to EWK |
+ Patrick | Saturday 12:20pm SW2930 from DFW | Thursday 12:10pm SW2421 to DEN |
  John | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
  Mike | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
  Joe | Saturday 1:45pm AA1924 from DFW | Saturday 12:37pm AA1923 to DFW |
@@ -27,7 +28,6 @@ Name | Arrival | Departure |
  Benjammin' | Saturday 8:14pm UA1049 from DEN | Saturday 12:35pm UA to ORD |
  Charlotte | Saturday 8:14pm UA1049 from DEN | Thursday 7:13am UA1636 to DEN|
  Lance | Friday | Saturday |
- Patrick | | |
  Margaret |  |  |
 
 [ski trip history](ski-trip-history)
