@@ -16,11 +16,11 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 
 Name | Arrival | Departure |
 ---|---|----|
- Lance | Friday | Saturday |
+ Lance | Friday | Wednesday |
  Chris | Saturday 10:08am UA2467 from EWK | Saturday 11:15am UA1559 to EWK |
  Corey | Saturday 10:08am UA2467 from EWK | Saturday 11:15am UA1559 to EWK |
  Patrick | Saturday 12:20pm SW2930 from DFW | Thursday 12:10pm SW2421 to DEN |
- Margaret | Saturday 12:20pm SW2930 from DFW | Wednesday 11:50pm SW3380 to DEN |
+ Margaret | Saturday 12:20pm SW2930 from DFW | Tuesday |
  Steve | Saturday 1:18pm Alaska 2016 from SEA | Saturday |
  John | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
  Mike | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
