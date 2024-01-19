@@ -30,13 +30,13 @@ Name | Arrival | Departure |
  Corey | Saturday 10:08am UA2467 from EWK | Saturday 11:15am UA1559 to EWK |
  Patrick | Saturday 12:20pm SW2930 from DFW | Thursday 12:10pm SW2421 to DEN |
  Margaret | Saturday 12:20pm SW2930 from DFW | Tuesday |
- Steve | Saturday 1:18pm Alaska 2016 from SEA | Saturday |
+ Steve | Saturday 1:18pm Alaska 2016 from SEA | Saturday (staying a few days)|
  John | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
  Mike | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
  Joe | Saturday 1:45pm AA1924 from DFW | Saturday 12:37pm AA1923 to DFW |
  Peter | Saturday 2:21pm from SFO | Saturday 3:30pm to SFO |
  Tim | Saturday 2:46pm UA754 from IAD | Saturday 3:42pm UA2002 to IAD |
- Benjammin' | Saturday 8:14pm UA1049 from DEN | Saturday |
+ Benjammin' | Saturday 8:14pm UA1049 from DEN | Saturday (staying a few days)|
  Charlotte | Saturday 8:14pm UA1049 from DEN | Thursday 7:13am UA1636 to DEN|
 
 [ski trip history](ski-trip-history)
