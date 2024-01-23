@@ -31,7 +31,7 @@ Name | Arrival | Departure |
  Patrick | Saturday 12:20pm SW2930 from DFW | Thursday 12:10pm SW2421 to DEN |
  Margaret | Saturday 12:20pm SW2930 from DFW | Tuesday |
  Steve | Saturday 1:18pm Alaska 2016 from SEA | Saturday (staying a few days)|
- John | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
+ John | Saturday 1:45pm AA1924 from DFW | Thursday 10:34am AA1923 to DFW |
  Mike | Saturday 1:45pm AA1924 from DFW | Thursday 12:37pm AA1923 to DFW |
  Joe | Saturday 1:45pm AA1924 from DFW | Saturday 12:37pm AA1923 to DFW |
  Peter | Saturday 2:21pm from SFO | Saturday 3:30pm to SFO |
