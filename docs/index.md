@@ -29,7 +29,7 @@ Name | Arrival | Departure |
  Chris | Saturday 10:08am UA2467 from EWK | Saturday 11:20am UA1559 to EWK |
  Corey | Saturday 10:08am UA2467 from EWK | Thursday 11:40am UA1559 to EWK |
  Patrick | Saturday 12:20pm SW2930 from DFW | Thursday 12:10pm SW2421 to DEN |
- Margaret | Saturday 12:20pm SW2930 from DFW | Tuesday | noonish
+ Margaret | Saturday 12:20pm SW2930 from DFW | Tuesday noonish | 
  Steve | Saturday 1:18pm Alaska 2016 from SEA | Saturday (staying a few days)|
  John | Saturday 1:45pm AA1924 from DFW | Thursday 10:34am AA1923 to DFW |
  Mike | Saturday 1:45pm AA1924 from DFW | Thursday 10:34am AA1923 to DFW |
