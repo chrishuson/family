@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage{geometry}
-\geometry{landscape}
+\geometry{landscape, margin=2cm}
 
 \usepackage{tikz}
 \usetikzlibrary{trees}
@@ -46,24 +46,43 @@
     }
   ]
   
-  \node {John Joseph Huson \& Maria Benette Meek}
-      child { node {Christopher John \\\& Nan Ottenstein}
-        child { node {Andrew \\\& Chelsea} 
+  \node {John Joseph Huson \& Marie Antoinette (Maria) Banet (Meek)}
+      child[xshift=-20mm] { node {Christopher John \\\& Nan Ottenstein}
+        child { node {Andrew Jeffrey \\\& Chelsea Callahan} 
             child { node {Hayden Aster} }
-            child { node {Finley} }        }
-        child { node {Grace \\\& Corey} } }
-      child { node {Theresa Marie \\\& John Culver} 
-        child { node {Nicole} }
-        child { node {Marcus} }
-        child { node {Elias} }
-        child { node {Miracle} }     
-        child { node {Patrice} }
+            child { node {Finley Sterling} }        
+            }
+        child { node {Grace Ann \\\& Corey Rosen} } 
         }
-      child { node {Stephen John \\\& Rosemary} }
-      child { node {Timothy \\\& Anne} }
-      child { node {Michael \& Karol}
-        child { node {Lillian \\\& JD} }
-        child { node {Joseph \\\& Megan} }
+    child[level distance=80mm, xshift=-30mm] { node {Theresa Marie \\\& John Culver} 
+        child[level distance=25mm] { node {Nicole Rosaria \\Culver} }
+        child[level distance=25mm] { node {Marcus Hamilton\\Culver} }
+        child[level distance=25mm] { node {Elias Meek\\Culver} }
+        child[level distance=25mm] { node {Madeline Miracle\\Culver} }     
+        child[level distance=25mm] { node {Patrice Grace\\Culver} }
+        }
+      child { node {Stephen John \\\& Rosemary Laucks} 
+        child { node {Charlotte Elizabeth \\\& Matthew Lane} 
+            child { node {Morgan} }
+            child { node {Aubrey} }   
+            }
+        child { node {Benjamin \\John} }
+        }
+    child[level distance=80mm, xshift=30mm, edge from parent/.style={draw=black, behind path}]  { node {Timothy John\\\& Anne Braghetta} 
+        child[level distance=25mm, sibling distance=20mm] { node {Peter} }
+        child[level distance=25mm] { node {Scott} }
+        child[level distance=25mm] { node {Matthew} }
+        }
+      child { node {Michael John \\\& Karol Ann King}
+        child[xshift=-10mm, yshift=-20mm] { node {Lillian Marie\\\& James Dean Hartis} 
+            child { node {Joshua} }
+            child { node {Rachel} }   
+            }
+        child [xshift=10mm] { node {Joseph John\\\& Megan Lyons}             
+            child[sibling distance=20mm]  { node {Miles \\Henry} }
+            child { node {Alexander \\Riley} }        
+            child[sibling distance=20mm] { node {Theodore \\Chase} }    
+            }
       };
   
   \end{tikzpicture}
