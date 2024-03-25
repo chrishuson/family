@@ -2,7 +2,7 @@
 \usepackage{geometry}
 \geometry{landscape, top=2cm, margin=0.5cm}
 
-\usepackage{genealogytree}
+\usepackage[all]{genealogytree}
 % \usepackage{tikz}
 \usetikzlibrary{trees}
 
@@ -22,16 +22,54 @@
 ]
 
 \node {John \\\& Maria}
-    child { node {Chris \\\& Nan} }
+    child { node {Chris \\\& Nan}         
+      child { node {Andrew \\\& Chelsea} }
+      child { node {Grace \\\& Corey} }
+      }
     child { node {Terry \\\& John} }
     child { node {Stephen \\\& Rosemary} }
     child { node {Timothy \\\& Anne} }
-    child { node {Michael \\\& Karol}
-        child { node {Andrew \\\& Chelsea} }
-        child { node {Grace \\\& Corey} }
-    };
+    child { node {Michael \\\& Karol} };
 
 \end{tikzpicture}
+\newpage
+
+\begin{tikzpicture}
+\begin{genealogypicture}[
+  template=database traditional,
+  database format=full,
+  list separators hang,
+  name font=\normalsize,
+  place font=\small\itshape,
+  date font=\small\itshape,
+  processing=fit,
+  level size=2cm,
+  node size=2.5cm,
+  box={enhanced, colback=white, colframe=blue!20, rounded corners}
+]
+  parent{
+    g[id=john]{John Joseph Huson \& Marie Antoinette (Maria) Banet (Meek)}
+    c[id=chris]{Christopher John Huson \& Nan Ottenstein}
+    c[id=terry]{Theresa Marie Huson Culver \& John Culver}
+  }
+  parent{
+    g[id=chris]
+    c[id=andrew]{Andrew Jeffrey Huson \& Chelsea Callahan}
+    c[id=grace]{Grace Ann Huson \& Corey Rosen}
+  }
+  parent{
+    g[id=andrew]
+    c[id=hayden]{Hayden Aster Huson}
+    c[id=finley]{Finley Sterling Huson}
+  }
+  parent{
+    g[id=terry]
+    c[id=nicole]{Nicole Rosaria Culver}
+    c[id=marcus]{Marcus Hamilton Culver}
+  }
+% Remove the unnecessary \end{genealogypicture} command
+% Remove the unnecessary \end{tikzpicture} command
+
 \newpage
 \vspace*{2cm}
 
