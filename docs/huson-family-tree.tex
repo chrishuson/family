@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage{geometry}
-\geometry{landscape, margin=2cm}
+\geometry{landscape, top=2cm, margin=0.5cm}
 
 \usepackage{tikz}
 \usetikzlibrary{trees}
@@ -9,7 +9,7 @@
 
 \begin{tikzpicture}[
   sibling distance=20mm, 
-  level distance=15mm,
+  level distance=20mm,
   every node/.style = {
     shape=rectangle, 
     rounded corners,
@@ -32,6 +32,7 @@
 
 \end{tikzpicture}
 \newpage
+\vspace*{2cm}
 
 \begin{tikzpicture}[
     sibling distance=30mm, 
@@ -47,41 +48,41 @@
   ]
   
   \node {John Joseph Huson \& Marie Antoinette (Maria) Banet (Meek)}
-      child[xshift=-20mm] { node {Christopher John \\\& Nan Ottenstein}
-        child { node {Andrew Jeffrey \\\& Chelsea Callahan} 
-            child { node {Hayden Aster} }
-            child { node {Finley Sterling} }        
+      child[xshift=-25mm, yshift=-10mm] { node {Christopher John Huson\\\& Nan Ottenstein}
+        child[xshift=-5mm] { node {Andrew Jeffrey Huson\\\& Chelsea Callahan} 
+            child { node {Hayden Aster \\Huson} }
+            child { node {Finley Sterling \\Huson} }        
             }
-        child { node {Grace Ann \\\& Corey Rosen} } 
+        child { node {Grace Ann Huson\\\& Corey Rosen} } 
         }
-    child[level distance=80mm, xshift=-30mm] { node {Theresa Marie \\\& John Culver} 
+    child[level distance=80mm, xshift=-30mm] { node {Theresa Marie Huson Culver\\\& John Culver} 
         child[level distance=25mm] { node {Nicole Rosaria \\Culver} }
         child[level distance=25mm] { node {Marcus Hamilton\\Culver} }
         child[level distance=25mm] { node {Elias Meek\\Culver} }
         child[level distance=25mm] { node {Madeline Miracle\\Culver} }     
         child[level distance=25mm] { node {Patrice Grace\\Culver} }
         }
-      child { node {Stephen John \\\& Rosemary Laucks} 
+      child[xshift=-15mm, yshift=-10mm] { node {Stephen John Huson\\\& Rosemary Laucks} 
         child { node {Charlotte Elizabeth \\\& Matthew Lane} 
-            child { node {Morgan} }
-            child { node {Aubrey} }   
+            child { node {Morgan Rose \\Lane} }
+            child { node {Aubrey Eliza \\Lane} }   
             }
-        child { node {Benjamin \\John} }
+        child { node {Benjamin \\John Huson} }
         }
-    child[level distance=80mm, xshift=30mm, edge from parent/.style={draw=black, behind path}]  { node {Timothy John\\\& Anne Braghetta} 
-        child[level distance=25mm, sibling distance=20mm] { node {Peter} }
-        child[level distance=25mm] { node {Scott} }
-        child[level distance=25mm] { node {Matthew} }
+    child[level distance=80mm, xshift=40mm, edge from parent/.style={draw=black, behind path}]  { node {Timothy John Huson\\\& Anne Braghetta} 
+        child[level distance=25mm, sibling distance=30mm] { node {Peter Braghetta \\Huson} }
+        child[level distance=25mm] { node {Scott Braghetta \\Huson} }
+        child[level distance=25mm, sibling distance=35mm] { node {Matthew Braghetta \\Huson} }
         }
-      child { node {Michael John \\\& Karol Ann King}
-        child[xshift=-10mm, yshift=-20mm] { node {Lillian Marie\\\& James Dean Hartis} 
-            child { node {Joshua} }
-            child { node {Rachel} }   
+      child[xshift=10mm, yshift=-10mm]  { node {Michael John Huson\\\& Karol Ann King}
+        child[xshift=-20mm] { node {Lillian Marie Huson\\\& James Dean Hartis} 
+            child { node {Joshua Lee\\Hartis} }
+            child[xshift=-5mm] { node {Rachel Ann\\Hartis} }   
             }
-        child [xshift=10mm] { node {Joseph John\\\& Megan Lyons}             
-            child[sibling distance=20mm]  { node {Miles \\Henry} }
-            child { node {Alexander \\Riley} }        
-            child[sibling distance=20mm] { node {Theodore \\Chase} }    
+        child [xshift=10mm, yshift=0mm] { node {Joseph John Huson\\\& Megan Lyons}             
+            child[sibling distance=25mm]  { node {Miles Henry \\Huson} }
+            child { node {Alexander \\Riley Huson} }        
+            child[sibling distance=25mm] { node {Theodore \\Chase Huson} }    
             }
       };
   
