@@ -1,0 +1,112 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, landscape, top=4cm, margin=0.5cm}
+
+\usepackage[all]{genealogytree}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+\gtrset{firstlevel/.style={
+  box={width=2.7cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+\gtrset{secondlevel/.style={
+  box={width=2cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+
+\begin{document}
+\subsection*{Huson Family Tree}
+  \vspace{2cm}
+\begin{center}
+\begin{tikzpicture}[scale=1]
+  \genealogytree[
+    template=signpost, 
+    node size=1.5cm, level distance=1.5cm,
+    ]{
+      parent{
+        c[male]{George Roe Huson Jr.}
+        g[id=john]{John Joseph Huson}
+          %child{
+          %  g[id=john]{John Joseph Huson}
+          %  p[id=maria]{Marie Antoinette \\(Maria) Banet (Meek)}
+          %}
+        parent{
+          c[female]{Charlotte Huson}
+          g[male]{George Roe Huson}
+          c[male]{Charles Huson}
+          c[female]{Eunice Huson}
+          parent
+            {
+            g[male]{Charles Lewis Huson}
+            c[male]{Arthur Huson}
+            c[female]{Josephene Huson}
+            c[female]{Katherine Huson}
+            parent{
+              g[male]{George Roe Huson}
+              c[male]{William Huson Jr.}
+              c[female]{Winfield Huson.}
+              p[male]{William Huson}
+              p[female]{Marie Lewis}
+              }
+            p[female]{Margaret McKeever}
+            }
+          parent{
+            g[female]{Charlotte Riordan}
+            c[female]{Elizabeth (Bess) Riordan}
+            c[male]{Jerome Riordan}
+            c[female]{Margaret Riordan}
+            c[male]{John Riordan}
+            p[male]{John Riordan}
+            p[female]{Margaret Mullin}
+            }
+          }
+        parent{
+          c[female]{Lottie Gertrude Lomax}
+          g[female]{Lillian Francis Lomax}
+          c[female]{Elizabeth Ann Lomax}
+          parent
+            {
+            g[male]{John Joseph Lomax}
+            c[female]{Ann Lomax}
+            c[male]{William Lomax}
+            c[female]{Lillian Lomax}
+            c[female]{Loretta Hillary Lomax}
+            c[female]{Mary Francis Lomax}
+            parent{
+              g[male]{Elias Lomax}
+              c[male]{William Lomax}
+              c[female]{Charlotte Lomax}
+              p[male]{William Lomax}
+              p[female]{Alice Beleau}
+              }
+            p[female]{Ann Jane Coughlan}
+            }
+          parent{
+            g[female]{Elizabeth Agnes Drew}
+            p[male]{George Drew}
+            parent{
+              g[female]{Elizabeth Cherry Gore}
+              c[female]{Jane Gore}
+              c[female]{Mary Gore}
+              c[female]{Susan Agnes Gore}
+              c[male]{William Gore}
+              c[female]{Alice Gore}
+              parent{
+                g[male]{Robert David Gore}
+                c[male]{Arthur Keating Gore}
+                c[male]{Henry Gore}
+                p[male]{Arundel Gore}
+                p[female]{Jane Keating (Bailey)}
+                }
+              p[female]{Susan Seery}
+              }
+            }
+          }
+        }
+    }
+  \end{tikzpicture}
+\end{center}
+\end{document}
