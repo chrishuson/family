@@ -6,21 +6,32 @@
 \usepackage{tikz}
 \usetikzlibrary{trees}
 
+\gtrset{firstlevel/.style={
+  box={width=2.7cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+\gtrset{secondlevel/.style={
+  box={width=2cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+
 \begin{document}
 \subsection*{Huson Family Tree}
   \vspace{2cm}
+\begin{center}
 \begin{tikzpicture}[scale=1]
   \genealogytree[
     template=signpost, 
     node size=1.5cm, level distance=1.5cm,
-    %timeflow=right, node size=1.5cm, level size=4cm, level distance=2cm,
     ]{
   child{
-    g[id=john]{John Joseph Huson}
-    p[id=maria]{Marie Antoinette (Maria) Banet (Meek)}
+    g[id=john, firstlevel]{John Joseph Huson}
+    p[id=maria, firstlevel]{Marie Antoinette \\(Maria) Banet (Meek)}
     child{
-      g[id=chris]{Christopher John Huson}
-      p[id=nan]{Nan Ottenstein}
+      g[id=chris, secondlevel]{Christopher John Huson}
+      p[id=nan, secondlevel]{Nan Ottenstein}
       child{
         g[id=andrew]{Andrew Jeffrey Huson}
         p[id=chelsea]{Chelsea Star Callahan}
@@ -33,8 +44,8 @@
       }
     }
     child{
-      g[id=terry]{Theresa Marie Huson}
-      p[id=jc]{John Culver}
+      g[id=terry, secondlevel]{Theresa Marie Huson}
+      p[id=jc, secondlevel]{John Culver}
       c[id=nicole]{Nicole Rosaria Culver}
       c[id=marcus]{Marcus Hamilton Culver}
       c[id=nicole]{Elias Meek Culver}
@@ -42,8 +53,8 @@
       c[id=nicole]{Patrice Grace Culver}
     }
     child{
-      g[id=steve]{Stephen John Huson}
-      p[id=rosemary]{Rosemary Laucks}
+      g[id=steve, secondlevel]{Stephen John Huson}
+      p[id=rosemary, secondlevel]{Rosemary Laucks}
       child{
         g[id=charlotte]{Charlotte Elizabeth}
         p[id=chelsea]{Matthew Lane}
@@ -55,15 +66,15 @@
       }
     }
     child{
-      g[id=tim]{Timothy John Huson}
-      p[id=anne]{Anne Braghetta}
+      g[id=tim, secondlevel]{Timothy John Huson}
+      p[id=anne, secondlevel]{Anne Braghetta}
       c[id=peter]{Peter Braghetta Huson}
       c[id=scott]{Scott Braghetta Huson}
       c[id=teo]{Matthew Braghetta Huson}
     }
     child{
-      g[id=mike]{Michael John Huson}
-      p[id=karol]{Karol Ann King}
+      g[id=mike, secondlevel]{Michael John Huson}
+      p[id=karol, secondlevel]{Karol Ann King}
       child{
         g[id=lily]{Lillian Marie Huson}
         p[id=jd]{James Dean Hartis}
@@ -79,9 +90,7 @@
       }
     }
   }
-
   }
   \end{tikzpicture}
-
+\end{center}
 \end{document}
-
