@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, landscape, top=4cm, margin=0.5cm}
+
+\usepackage[all]{genealogytree}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1]
+  \genealogytree[template=signpost, node size=1.5cm]{
+  child{
+    g[id=john]{John Joseph Huson}
+    p[id=maria]{Marie Antoinette (Maria) Banet (Meek)}
+    child{
+      g[id=chris]{Christopher John Huson}
+      p[id=nan]{Nan Ottenstein}
+      child{
+        g[id=andrew]{Andrew Jeffrey Huson}
+        p[id=chelsea]{Chelsea Star Callahan}
+        c[id=hayden]{Hayden Aster Huson}
+        c[id=finley]{Finley Sterling Huson}
+      }
+      child{
+        g[id=grace]{Grace Ann Huson}
+        p[id=corey]{Corey Rosen}
+      }
+    }
+    child{
+      g[id=terry]{Theresa Marie Huson}
+      p[id=jc]{John Culver}
+      c[id=nicole]{Nicole Rosaria Culver}
+      c[id=marcus]{Marcus Hamilton Culver}
+      c[id=nicole]{Elias Meek Culver}
+      c[id=marcus]{Madeline Miracle Culver}
+      c[id=nicole]{Patrice Grace Culver}
+    }
+    child{
+      g[id=steve]{Stephen John Huson}
+      p[id=rosemary]{Rosemary Laucks}
+      child{
+        g[id=charlotte]{Charlotte Elizabeth}
+        p[id=chelsea]{Matthew Lane}
+        c[id=hayden]{Morgan Rose Lane}
+        c[id=finley]{Aubrey Eliza Lane}
+      }
+      child{
+        g[id=ben]{Benjamin John Huson}
+      }
+    }
+    child{
+      g[id=tim]{Timothy John Huson}
+      p[id=anne]{Anne Braghetta}
+      c[id=peter]{Peter Braghetta Huson}
+      c[id=scott]{Scott Braghetta Huson}
+      c[id=teo]{Matthew Braghetta Huson}
+    }
+    child{
+      g[id=mike]{Michael John Huson}
+      p[id=karol]{Karol Ann King}
+      child{
+        g[id=lily]{Lillian Marie Huson}
+        p[id=jd]{James Dean Hartis}
+        c[id=joshua]{Joshua Lee Hartis}
+        c[id=rachel]{Rachel Ann Hartis}
+      }
+      child{
+        g[id=joe]{Joseph John Huson}
+        p[id=megan]{Megan Lyons}
+        c[id=miles]{Miles Henry Huson}
+        c[id=lex]{Alexander Riley Huson}
+        c[id=theo]{Theodore Chase Huson}
+      }
+    }
+  }
+
+  }
+  \end{tikzpicture}
+
+\end{document}
+
