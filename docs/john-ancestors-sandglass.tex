@@ -18,49 +18,47 @@
 }}
 
 \begin{document}
-\subsection*{Huson Family Tree}
+\subsection*{John's Ancestors}
   \vspace{2cm}
-\begin{center}
-\begin{tikzpicture}[scale=1]
-  \genealogytree[
-    template=signpost, 
-    node size=1.5cm, level distance=1.5cm,
-    ]{
+\begin{genealogypicture}[
+  template=signpost, 
+  node size=1.5cm, level distance=1.5cm,
+  ]
+  sandclock{
+    c[male]{George Roe Huson Jr.}
+    child{
+      g[male, firstlevel]{John Joseph Huson}
+      p[female, firstlevel]{Marie Antoinette \\(Maria) Banet (Meek)}
+      }
       parent{
-        g[male]{George Roe Huson Jr.}
-        c[male]{John Joseph Huson}
-        %union{
-          %p[female]{Marie Antoinette \\(Maria) Banet (Meek)}
-          %}
+        c[female]{Charlotte Huson}
+        g[male]{George Roe Huson}
+        c[male]{Charles Huson}
+        c[female]{Eunice Huson}
         parent{
-          c[female]{Charlotte Huson}
-          g[male]{George Roe Huson}
-          c[male]{Charles Huson}
-          c[female]{Eunice Huson}
+          g[male]{Charles Lewis Huson}
+          c[male]{Arthur Huson}
+          c[female]{Josephene Huson}
+          c[female]{Katherine Huson}
           parent{
-            g[male]{Charles Lewis Huson}
-            c[male]{Arthur Huson}
-            c[female]{Josephene Huson}
-            c[female]{Katherine Huson}
-            parent{
-              g[male]{George Roe Huson}
-              c[male]{William Huson Jr.}
-              c[female]{Winfield Huson.}
-              p[male]{William Huson}
-              p[female]{Marie Lewis}
-              }
-            p[female]{Margaret McKeever}
+            g[male]{George Roe Huson}
+            c[male]{William Huson Jr.}
+            c[female]{Winfield Huson.}
+            p[male]{William Huson}
+            p[female]{Marie Lewis}
             }
-          parent{
-            g[female]{Charlotte Riordan}
-            c[female]{Elizabeth (Bess) Riordan}
-            c[male]{Jerome Riordan}
-            c[female]{Margaret Riordan}
-            c[male]{John Riordan}
-            p[male]{John Riordan}
-            p[female]{Margaret Mullin}
-            }
+          p[female]{Margaret McKeever}
           }
+        parent{
+          g[female]{Charlotte Riordan}
+          c[female]{Elizabeth (Bess) Riordan}
+          c[male]{Jerome Riordan}
+          c[female]{Margaret Riordan}
+          c[male]{John Riordan}
+          p[male]{John Riordan}
+          p[female]{Margaret Mullin}
+          }
+        }
         parent{
           c[female]{Lottie Gertrude Lomax}
           g[female]{Lillian Francis Lomax}
@@ -103,8 +101,6 @@
               }
             }
           }
-        }
-    }
-  \end{tikzpicture}
-\end{center}
+  }
+\end{genealogypicture}
 \end{document}
