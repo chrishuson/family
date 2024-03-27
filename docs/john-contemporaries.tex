@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, landscape, top=4cm, margin=0.5cm}
+
+\usepackage[all]{genealogytree}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+\gtrset{firstlevel/.style={
+  box={width=2.7cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+\gtrset{secondlevel/.style={
+  box={width=2cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+
+\begin{document}
+\subsection*{John and Maria's contemporaries}
+  \vspace{2cm}
+  \begin{tikzpicture}
+    \genealogytree[
+  %template=signpost, 
+  %node size=1.5cm, level distance=1.0cm,
+  ]
+  %sandclock
+  {
+    child{
+      p[female]{Patsy Huson}
+      g[male]{George Roe Huson Jr.}
+      c[male]{Gregory Huson}
+      c[female]{Denise Huson}
+      c[female]{Claire Huson}
+      c[female]{Margaret Huson}
+      }
+    child{
+      g[male, firstlevel]{John Joseph Huson}
+      p[female, firstlevel]{Marie Antoinette \\(Maria) Banet (Meek)}
+      }
+    parent{
+      c[female]{Charlotte Huson}
+      g[male]{George Roe Huson}
+      c[male]{Charles Huson}
+      c[female]{Eunice Huson}
+      p[male]{Charles Lewis Huson}
+      p[female]{Charlotte Riordan}
+      }
+    parent{
+      c[female]{Lottie Gertrude Lomax}
+      g[female]{Lillian Francis Lomax}
+      c[female]{Elizabeth Ann Lomax}
+      % child{
+        %g[female]{Elizabeth Ann Lomax}
+        %}
+      p[male]{John Joseph Lomax}
+      p[female]{Elizabeth Cherry Gore}
+      }
+  }
+%\end{genealogypicture}
+\end{tikzpicture}
+\end{document}
