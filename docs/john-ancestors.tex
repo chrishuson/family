@@ -18,7 +18,7 @@
 }}
 
 \begin{document}
-\subsection*{John and Maria's Ancestal Family Tree}
+\subsection*{John and Maria's Ancestral Family Tree}
   \vspace{2cm}
 \begin{center}
 \begin{tikzpicture}[scale=1]
@@ -106,7 +106,14 @@ node size=1.5cm, level distance=1.0cm,
             p[male]{Arundel Gore}
             p[female]{Jane Keating (Bailey)}
             }
-          p[female]{Susan Seery \\1836-1877 (Dublin)}
+          parent{
+            g[female]{Susan Susanna Seery \\1836-1898 (Dublin)}
+            p[male]{Luke Seery}
+            parent{
+              g[female]{Elizabeth (Jane?) Clements}
+              c[male]{father of Mark Twain?}
+              }
+            }
           }
         }
       }
