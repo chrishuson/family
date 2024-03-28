@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[all]{genealogytree}
+
+\begin{document}
+
+\begin{genealogypicture}[
+ template=descendant tree,
+ timeflow=down,
+ level size=3cm,
+ level distance=1.5cm,
+ child distance=1cm,
+ sibling distance=1cm,
+ node size=2cm,
+ box={fit basedim=7pt,boxsep=3pt,segmentation style=solid,rounded corners=5pt},
+ % Define the tree
+ child{
+    g[male]{p1}
+    p[female]{p2}
+    child{
+      g[male]{c1}
+      p[female]{c2}
+      child{
+        g[male]{gc1}
+        p[female]{gc2}
+      }
+      child{
+        g[male]{gc3}
+        p[female]{gc4}
+      }
+    }
+    child{
+      g[male]{c3}
+      p[female]{c4}
+      child{
+        g[male]{gc5}
+        p[female]{gc6}
+      }
+      child{
+        g[male]{gc7}
+        p[female]{gc8}
+      }
+    }
+ }
+]
+
+\end{genealogypicture}
+
+\end{document}
