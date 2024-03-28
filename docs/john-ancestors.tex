@@ -22,88 +22,108 @@
   \vspace{2cm}
 \begin{center}
 \begin{tikzpicture}[scale=1]
-  \genealogytree[
-    template=signpost, 
-    node size=1.5cm, level distance=1.5cm,
-    ]{
+\genealogytree[
+template=signpost, 
+node size=1.5cm, level distance=1.0cm,
+]{
+  parent{
+  g[male]{Christopher John Huson}
+  c[female]{Theresa Marie Huson}
+  c[male]{Stephen John Huson}
+  c[male]{Timothy John Huson}
+  c[male]{Michael John Huson}
+  parent{
+    c[male]{George Roe Huson Jr.}
+    g[male, firstlevel]{John Joseph Huson}
+    parent{
+      c[female]{Charlotte Huson}
+      c[male]{Charles Huson}
+      c[female]{Eunice Huson}
+      g[male]{George Roe Huson}
       parent{
-        g[male]{George Roe Huson Jr.}
-        c[male]{John Joseph Huson}
-        %union{
-          %p[female]{Marie Antoinette \\(Maria) Banet (Meek)}
-          %}
+        p[female]{Margaret McKeever}
+        g[male]{Charles Lewis Huson}
+        c[male]{Arthur Huson}
+        c[female]{Josephene Huson}
+        c[female]{Katherine Huson}
         parent{
-          c[female]{Charlotte Huson}
           g[male]{George Roe Huson}
-          c[male]{Charles Huson}
-          c[female]{Eunice Huson}
-          parent{
-            g[male]{Charles Lewis Huson}
-            c[male]{Arthur Huson}
-            c[female]{Josephene Huson}
-            c[female]{Katherine Huson}
-            parent{
-              g[male]{George Roe Huson}
-              c[male]{William Huson Jr.}
-              c[female]{Winfield Huson.}
-              p[male]{William Huson}
-              p[female]{Marie Lewis}
-              }
-            p[female]{Margaret McKeever}
-            }
-          parent{
-            g[female]{Charlotte Riordan}
-            c[female]{Elizabeth (Bess) Riordan}
-            c[male]{Jerome Riordan}
-            c[female]{Margaret Riordan}
-            c[male]{John Riordan}
-            p[male]{John Riordan}
-            p[female]{Margaret Mullin}
-            }
-          }
-        parent{
-          c[female]{Lottie Gertrude Lomax}
-          g[female]{Lillian Francis Lomax}
-          c[female]{Elizabeth Ann Lomax}
-          parent
-            {
-            g[male]{John Joseph Lomax}
-            c[female]{Ann Lomax}
-            c[male]{William Lomax}
-            c[female]{Lillian Lomax}
-            c[female]{Loretta Hillary Lomax}
-            c[female]{Mary Francis Lomax}
-            parent{
-              g[male]{Elias Lomax}
-              c[male]{William Lomax}
-              c[female]{Charlotte Lomax}
-              p[male]{William Lomax}
-              p[female]{Alice Beleau}
-              }
-            p[female]{Ann Jane Coughlan}
-            }
-          parent{
-            g[female]{Elizabeth Agnes Drew}
-            p[male]{George Drew}
-            parent{
-              g[female]{Elizabeth Cherry Gore}
-              c[female]{Jane Gore}
-              c[female]{Mary Gore}
-              c[female]{Susan Agnes Gore}
-              c[male]{William Gore}
-              c[female]{Alice Gore}
-              parent{
-                g[male]{Robert David Gore}
-                c[male]{Arthur Keating Gore}
-                c[male]{Henry Gore}
-                p[male]{Arundel Gore}
-                p[female]{Jane Keating (Bailey)}
-                }
-              p[female]{Susan Seery}
-              }
-            }
+          c[male]{William Huson Jr.}
+          c[female]{Winfield Huson.}
+          p[male]{William Huson}
+          p[female]{Marie Lewis}
           }
         }
+      parent{
+        g[female]{Charlotte Riordan}
+        c[female]{Elizabeth (Bess) Riordan}
+        c[male]{Jerome Riordan}
+        c[female]{Margaret Riordan}
+        c[male]{John Riordan}
+        p[male]{John Riordan}
+        p[female]{Margaret Mullin}
+        }
+      }
+    parent{
+      c[female]{Lottie Gertrude Lomax}
+      g[female]{Lillian Francis Lomax}
+      c[female]{Elizabeth Ann Lomax}
+      parent
+        {
+        c[female]{Ann Lomax}
+        c[male]{William Lomax}
+        c[female]{Lillian Lomax}
+        c[female]{Loretta Hillary Lomax}
+        c[female]{Mary Francis Lomax}
+        g[male]{John Joseph Lomax}
+        parent{
+          c[male]{William Lomax}
+          c[female]{Charlotte Lomax}
+          g[male]{Elias Lomax}
+          p[male]{William Lomax}
+          p[female]{Alice Beleau}
+          }
+        p[female]{Ann Jane Coughlan}
+        }
+      parent{
+        g[female]{Elizabeth Agnes Drew}
+        p[male]{George Drew}
+        parent{
+          g[female]{Elizabeth Cherry Gore}
+          c[female]{Jane Gore}
+          c[female]{Mary Gore}
+          c[female]{Susan Agnes Gore}
+          c[male]{William Gore}
+          c[female]{Alice Gore}
+          parent{
+            c[male]{Arthur Keating Gore}
+            c[male]{Henry Gore}
+            g[male]{Robert David Gore}
+            p[male]{Arundel Gore}
+            p[female]{Jane Keating (Bailey)}
+            }
+          p[female]{Susan Seery}
+          }
+        }
+      }
+    }
+    parent{
+      g[female, firstlevel]{Marie Antoinette \\(Maria) Banet (Meek)}
+      c[male]{Ben Edward Meek Jr.}
+      p[male]{Howard Banet}
+      parent{
+        g[female]{Marie Antoinette Clephas}
+        p[male]{Anthony Clephas}
+        p[female]{Agatha Brodbeck}
+        }
+        parent{
+          g[male]{Ben Edward Meek Sr.}
+          p[male]{Buford Meek}
+          p[female]{Eva Rose Schnepp}
+          }
+        % union is not working, so I'm using a workaround
+      }
+    }
     }
   \end{tikzpicture}
 \end{center}
