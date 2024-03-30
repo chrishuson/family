@@ -20,11 +20,11 @@
 \begin{document}
 \subsection*{John and Maria's Ancestral Family Tree}
   \vspace{2cm}
-\begin{center}
+\begin{flushleft}
 \begin{tikzpicture}[scale=1]
 \genealogytree[
 template=signpost, 
-node size=1.5cm, level distance=1.0cm,
+node size=1.5cm, level distance=0.8cm,
 ]{
   parent{
   g[male]{Christopher John Huson}
@@ -42,15 +42,11 @@ node size=1.5cm, level distance=1.0cm,
       c[female]{Margaret Huson (Brennan)}
       g[male]{George Roe Huson Sr. \\ 1907-1978}
       parent{
-        c[male]{Arthur Huson}
-        c[female]{Josephene Huson}
-        c[female]{Katherine Huson}
         g[male]{Charles Lewis Huson \\1879-1933}
         p[female]{Margaret McKeever}
         parent{
           g[male]{George Roe Huson\\ 1853-}
           c[male]{William Huson Jr.}
-          c[female]{Winfield Huson.}
           p[male]{William Huson \\ -1880} %Captain commanded 13th NY Regiment in Civil War (picture in 13th Reg Armory)
           p[female]{Marie Lewis}
           }
@@ -58,9 +54,7 @@ node size=1.5cm, level distance=1.0cm,
       parent{
         g[female]{Charlotte Riordan \\ 1878-1927}
         c[female]{Elizabeth (Bess) Riordan}
-        c[male]{Jerome Riordan}
-        c[female]{Margaret Riordan}
-        c[male]{John Riordan Jr.} %also Richard, James, May, Gertrude
+        c[male]{John Riordan Jr.} %also Jerome, Margaret, Richard, James, May, Gertrude
         p[male]{John Riordan \\ -1966 (Ireland)}
         parent{
           g[female]{Margaret Mullin \\ (Ireland)}
@@ -74,13 +68,7 @@ node size=1.5cm, level distance=1.0cm,
       g[female]{Lillian Francis Lomax \\1908-1998}
       c[female]{Elizabeth Ann Lomax \\ 1911-2003}
       parent
-        {
-        c[female]{Ann Lomax \\1872-} %Thomas, Beatrice (Saling)
-        c[male]{William Lomax \\1872-1894}
-        c[female]{Lillian Lomax (Brubeck) \\1874-1945}
-        c[female]{Loretta Hillary Lomax \\1877-1968}
-        c[female]{Mary Francis Lomax (Traut) \\1882-1984}
-        g[male]{John Joseph Lomax \\1879-1939}
+        {g[male]{John Joseph Lomax \\1879-1939}
         parent{
           c[male]{William Lomax \\1842-}
           c[female]{Charlotte Lomax (Turnbull) \\1843}
@@ -94,11 +82,7 @@ node size=1.5cm, level distance=1.0cm,
         g[female]{Elizabeth Agnes Drew \\ 1880-1961}
         p[male]{George Drew \\ (Boston)}
         parent{
-          g[female]{Elizabeth Cherry Gore \\ 1862-1951 (Dublin)}
-          c[female]{Jane Gore \\ 1862-}
-          c[female]{Mary Gore}
-          c[female]{Susan Agnes Gore \\ -1921}
-          c[male]{William Gore \\ 1868-}
+          g[female]{Elizabeth Cherry Gore \\ 1862-1951 (Dublin)} %also Jane, Mary, William
           c[female]{Alice Gore (Healy)\\ 1871-1947}
           parent{
             c[male]{Arthur Keating Gore}
@@ -122,21 +106,49 @@ node size=1.5cm, level distance=1.0cm,
     parent{
       g[female, firstlevel]{Marie Antoinette \\(Maria) Banet (Meek) \\1935-}
       c[male]{Ben Edward Meek Jr.}
-      p[male]{Howard Banet \\1910-1974}
       parent{
+        c[male]{Anthony Clephas Jr \\ 1908-}
+        c[female]{Agatha Clephas \\ 1905-}
+        c[female]{Cecilia Clephas \\ 1911-1918}
+        c[female]{Charles Clephas \\ 1915-2000}
         g[female]{Marie Antoinette Clephas \\ 1913-1999} 
-        p[male]{Anthony Clephas \\1881-1942}
+        parent{
+          g[male]{Anthony Clephas Sr \\1881-1904}
+          p[male]{John Clephas Sr \\1883 -1913 Holland}
+          p[female]{Mary Bierman \\ -1963}
+        }
         p[female]{Agatha Brodbeck \\1882-1978}
         }
+      parent{
+        g[male]{Howard Otto Banet \\1910-1974}
         parent{
-          g[male]{Ben Edward Meek Sr.}
-          p[male]{Buford Meek}
-          p[female]{Eva Rose Schnepp}
+          g[male]{James McCellan Banet}
+          parent{
+            g[male]{Amos Apollinare Banet \\1837-1884}
+            parent{
+              g[male]{Etienne (Stephen) Banet Jr \\1795- 1871 Arcey, France}
+              parent{
+                g[male]{Etienne Banet Sr \\1765- 1842 Coulevon, France}
+                p[male]{Nicolas Banet \\1739-1769 Coulevon, France}
+                p[female]{Anne Michelot}
+                }
+              p[male]{Jeanne Claudine}
+              }
+            p[female]{Francoise Bidaine}
+            }
+          p[male]{Mary Jane Knable}
           }
+        p[female]{Emma Margaret Mader}
+        }
+      parent{
+        g[male]{Ben Edward Meek Sr.}
+        p[male]{Buford Meek}
+        p[female]{Eva Rose Schnepp}
+        }
         % union is not working, so I'm using a workaround
       }
     }
     }
   \end{tikzpicture}
-\end{center}
+\end{flushleft}
 \end{document}
