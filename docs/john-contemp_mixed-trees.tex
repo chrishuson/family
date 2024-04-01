@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage[all]{genealogytree}
+
+\begin{document}
+
+\begin{genealogytree}[template=signpost]
+  child{
+    g[id=mainfamily]{Main Family}
+    c[id=otherfamily]{Other Family}
+    c[id=verticalfamily]{
+      \begin{tikzpicture}
+        \genealogytree[template=signpost]{
+          child{
+            g[id=terry, secondlevel]{Theresa Marie Huson}
+            p[id=jc]{John Andrew Culver}
+            c[id=nicole]{Nicole Rosaria Culver}
+            c[id=marcus]{Marcus Hamilton Culver}
+            c[id=nicole]{Elias Meek Culver}
+            c[id=marcus]{Madeline Miracle Culver}
+            c[id=nicole]{Patrice Grace Culver}
+          }
+        }
+      \end{tikzpicture}
+    }
+  }
+\end{genealogytree}
+
+\end{document}

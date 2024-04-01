@@ -20,101 +20,100 @@
 \begin{document}
 \subsection*{John and Maria's contemporaries}
   \vspace{2cm}
-  \begin{tikzpicture}
-    \genealogytree[
-  template=signpost, 
-  %node size=1.5cm, level distance=1.0cm,
-  ]
-  %sandclock
-  {child{
-    g[male]{John Joseph Lomax}
-    p[female]{Elizabeth Cherry Gore}
+\begin{tikzpicture}
+  \genealogytree[
+template=signpost, 
+%node size=1.5cm, level distance=1.0cm,
+]
+{child{
+  g[male]{John Joseph Lomax}
+  p[female]{Elizabeth Cherry Gore}
+  child{
+    p[male]{George Roe Huson}
+    g[female]{Lillian Francis Lomax}
     child{
-      p[male]{George Roe Huson}
-      g[female]{Lillian Francis Lomax}
+      p[female]{Patsy Huson}
+      g[male]{George Roe Huson Jr.}
+      c[male]{Gregory Huson}
+      c[female]{Denise Huson}
+      c[female]{Claire Huson}
+      c[female]{Margaret Huson}
+      }      
+    child{
+      g[male]{John Joseph Huson}
+      p[female]{Marie Antoinette \\(Maria) Banet (Meek)}
       child{
-        p[female]{Patsy Huson}
-        g[male]{George Roe Huson Jr.}
-        c[male]{Gregory Huson}
-        c[female]{Denise Huson}
-        c[female]{Claire Huson}
-        c[female]{Margaret Huson}
-        }      
+        g[id=chris, secondlevel]{Christopher John Huson}
+        p[id=nan, secondlevel]{Nan Ottenstein} %does not have a middle name
+        child{
+          g[id=andrew]{Andrew Jeffrey Huson}
+          p[id=chelsea]{Chelsea Star Callahan}
+          c[id=hayden]{Hayden Aster Huson}
+          c[id=finley]{Finley Sterling Huson}
+        }
+        child{
+          g[id=grace]{Grace Ann Huson}
+          p[id=corey]{Corey Jacob Rosen}
+        }
+      }
       child{
-        g[male]{John Joseph Huson}
-        p[female]{Marie Antoinette \\(Maria) Banet (Meek)}
+        g[id=terry, secondlevel]{Theresa Marie Huson}
+        p[id=jc]{John Andrew Culver}
+        c[id=nicole]{Nicole Rosaria Culver}
+        c[id=marcus]{Marcus Hamilton Culver}
+        c[id=nicole]{Elias Meek Culver}
+        c[id=marcus]{Madeline Miracle Culver}
+        c[id=nicole]{Patrice Grace Culver}
+      }
+      child{
+        p[id=rosemary]{Rosemary Laucks} %does not have a middle name
         child{
-          g[id=chris, secondlevel]{Christopher John Huson}
-          p[id=nan, secondlevel]{Nan Ottenstein} %does not have a middle name
-          child{
-            g[id=andrew]{Andrew Jeffrey Huson}
-            p[id=chelsea]{Chelsea Star Callahan}
-            c[id=hayden]{Hayden Aster Huson}
-            c[id=finley]{Finley Sterling Huson}
-          }
-          child{
-            g[id=grace]{Grace Ann Huson}
-            p[id=corey]{Corey Jacob Rosen}
+          g[id=charlotte]{Charlotte Elizabeth}
+          p[id=chelsea]{Matthew Bruce Lane}
+          c[id=hayden]{Morgan Rose Lane}
+          c[id=finley]{Aubrey Eliza Lane}
+        }
+        c[id=ben]{Benjamin John Huson}
+        g[id=steve, secondlevel]{Stephen John Huson}
+        union{
+          p[id=tammy, secondlevel]{Tammy Sue Fisher}
           }
         }
+      child{
+        g[id=tim, secondlevel]{Timothy John Huson}
+        p[id=anne, secondlevel]{Anne Braghetta} %does not have a middle name
+        c[id=peter]{Peter Braghetta Huson}
+        c[id=scott]{Scott Braghetta Huson}
+        c[id=teo]{Matthew Braghetta Huson}
+      }
+      child{
+        g[id=mike, secondlevel]{Michael John Huson}
+        p[id=karol]{Karol Ann King}
         child{
-          g[id=terry, secondlevel]{Theresa Marie Huson}
-          p[id=jc]{John Andrew Culver}
-          c[id=nicole]{Nicole Rosaria Culver}
-          c[id=marcus]{Marcus Hamilton Culver}
-          c[id=nicole]{Elias Meek Culver}
-          c[id=marcus]{Madeline Miracle Culver}
-          c[id=nicole]{Patrice Grace Culver}
+          g[id=lily]{Lillian Marie Huson}
+          p[id=jd]{James Dean Hartis}
+          c[id=joshua]{Joshua Lee Hartis}
+          c[id=rachel]{Rachel Ann Hartis}
         }
         child{
-          p[id=rosemary]{Rosemary Laucks} %does not have a middle name
-          child{
-            g[id=charlotte]{Charlotte Elizabeth}
-            p[id=chelsea]{Matthew Bruce Lane}
-            c[id=hayden]{Morgan Rose Lane}
-            c[id=finley]{Aubrey Eliza Lane}
-          }
-          c[id=ben]{Benjamin John Huson}
-          g[id=steve, secondlevel]{Stephen John Huson}
-          union{
-            p[id=tammy, secondlevel]{Tammy Sue Fisher}
-            }
-          }
-        child{
-          g[id=tim, secondlevel]{Timothy John Huson}
-          p[id=anne, secondlevel]{Anne Braghetta} %does not have a middle name
-          c[id=peter]{Peter Braghetta Huson}
-          c[id=scott]{Scott Braghetta Huson}
-          c[id=teo]{Matthew Braghetta Huson}
+          g[id=joe]{Joseph John Huson}
+          p[id=megan]{Megan Erin Lyons}
+          c[id=miles]{Miles Henry Huson}
+          c[id=lex]{Alexander Riley Huson}
+          c[id=theo]{Theodore Chase Huson}
         }
-        child{
-          g[id=mike, secondlevel]{Michael John Huson}
-          p[id=karol]{Karol Ann King}
-          child{
-            g[id=lily]{Lillian Marie Huson}
-            p[id=jd]{James Dean Hartis}
-            c[id=joshua]{Joshua Lee Hartis}
-            c[id=rachel]{Rachel Ann Hartis}
-          }
-          child{
-            g[id=joe]{Joseph John Huson}
-            p[id=megan]{Megan Erin Lyons}
-            c[id=miles]{Miles Henry Huson}
-            c[id=lex]{Alexander Riley Huson}
-            c[id=theo]{Theodore Chase Huson}
-          }
-        }
-    
-        }       }
-      c[female]{Lottie Gertrude Lomax}
-      c[female]{Elizabeth Ann Lomax}
-    % child{
-      %g[female]{Elizabeth Ann Lomax}
-      %}
+      }
+  
+      }       }
+    c[female]{Lottie Gertrude Lomax}
+    c[female]{Elizabeth Ann Lomax}
+  % child{
+    %g[female]{Elizabeth Ann Lomax}
+    %}
 
 
-  }
-  }
+}
+}
 %\end{genealogypicture}
 \end{tikzpicture}
 \end{document}
