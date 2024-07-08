@@ -1,0 +1,151 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, landscape, top=2cm, margin=0.5cm}
+
+\usepackage[all]{genealogytree}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+\gtrset{firstlevel/.style={
+  box={width=2.7cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+\gtrset{secondlevel/.style={
+  box={width=1.9cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+
+\begin{document}
+\subsection*{\quad Landes Ancestral Family Trees}
+  \vspace{1cm}
+\begin{center}
+\begin{tikzpicture}[scale=1]
+\genealogytree[
+template=signpost, 
+node size=1.5cm, level distance=0.8cm,
+]{
+  parent{
+  g[male]{Hayden Star Huson \\2021-}
+  c[male]{Finley Aster Huson \\2023-}
+  parent{
+    c[female]{Grace Ann Huson \\1993-}
+    g[male]{Andrew Jeffrey Huson \\1990-}
+    parent{
+      c[female]{Charlotte Huson}
+      c[male]{Charles Huson}
+      c[female]{Eunice Huson}
+      c[female]{Margaret Huson (Brennan)}
+      g[male]{George Roe Huson Sr. \\ 1907-1978}
+      parent{
+        g[male]{Charles Lewis Huson \\1879-1933}
+        p[female]{Margaret McKeever}
+        parent{
+          g[male]{George Roe Huson\\ 1853-}
+          c[male]{William Huson Jr.}
+          p[male]{William Huson \\ -1880} %Captain commanded 13th NY Regiment in Civil War (picture in 13th Reg Armory)
+          p[female]{Marie Lewis}
+          }
+        }
+      parent{
+        g[female]{Charlotte Riordan \\ 1878-1927}
+        c[female]{Elizabeth (Bess) Riordan}
+        c[male]{John Riordan Jr.} %also Jerome, Margaret, Richard, James, May, Gertrude
+        p[male]{John Riordan \\ -1966 (Ireland)}
+        parent{
+          g[female]{Margaret Mullin \\ (Ireland)}
+          p[male]{Coleman Mullin \\ (Ireland)} %first came to Canada
+          p[female]{Margaret \\ (Ireland)}
+          }
+        }
+      }
+    parent{
+      c[female]{Lottie Gertrude Lomax \\1903-1998}
+      g[female]{Lillian Francis Lomax \\1908-1998}
+      c[female]{Elizabeth Ann Lomax \\ 1911-2003}
+      parent
+        {g[male]{John Joseph Lomax \\1879-1939}
+        parent{
+          c[male]{William Lomax \\1842-}
+          c[female]{Charlotte Lomax (Turnbull) \\1843}
+          g[male]{Elias Lomax \\1843-1907 (London)} %Buried in Soldiers Field, Brooklyn
+          p[male]{William Lomax \\1823-1861 (England)} %killed in Civil War, buried in Arlington Cemetery
+          p[female]{Alice Beleau \\(France?)}
+          }
+        p[female]{Ann Jane Coughlan \\1851-1901}
+        }
+      parent{
+        g[female]{Elizabeth Agnes Drew \\ 1880-1961}
+        p[male]{George Drew \\ (Boston)}
+        parent{
+          g[female]{Elizabeth Cherry Gore \\ 1862-1951 (Dublin)} %also Jane, Mary, William
+          c[female]{Alice Gore (Healy)\\ 1871-1947}
+          parent{
+            c[male]{Arthur Keating Gore}
+            c[male]{Henry Gore}
+            g[male]{Robert David Gore \\1836-1911 (Ireland)}
+            p[male]{Arundel Gore}
+            p[female]{Jane Keating (Bailey)}
+            }
+          parent{
+            g[female]{Susan Susanna Seery \\1836-1898 (Dublin)}
+            p[male]{Luke Seery}
+            parent{
+              g[female]{Elizabeth (Jane?) Clements}
+              c[male]{father of Mark Twain?}
+              }
+            }
+          }
+        }
+      }
+    }
+    parent{
+      g[female]{Chelsea Callahan\\1989-}
+      c[male]{Ben Edward Meek Jr. \\1949-}
+      parent{
+        c[male]{Anthony Clephas Jr \\ 1908-}
+        c[female]{Agatha Clephas \\ 1905-}
+        c[female]{Cecilia Clephas \\ 1911-1918}
+        c[female]{Charles Clephas \\ 1915-2000}
+        g[female]{Marie Antoinette Clephas \\ 1913-1999} 
+        parent{
+          g[male]{Anthony Clephas Sr \\1881-1904}
+          p[male]{John Clephas Sr \\1883 -1913 Holland}
+          p[female]{Mary Bierman \\ -1963}
+        }
+        p[female]{Agatha Brodbeck \\1882-1978}
+        }
+      parent{
+        g[male]{Howard Otto Banet \\1910-1974}
+        parent{
+          g[male]{James McCellan Banet}
+          parent{
+            g[male]{Amos Apollinare Banet \\1837-1884}
+            parent{
+              g[male]{Etienne (Stephen) Banet Jr \\1795- 1871 Arcey, France}
+              parent{
+                g[male]{Etienne Banet Sr \\1765- 1842 Coulevon, France}
+                p[male]{Nicolas Banet \\1739-1769 Coulevon, France}
+                p[female]{Anne Michelot}
+                }
+              p[male]{Jeanne Claudine}
+              }
+            p[female]{Francoise Bidaine}
+            }
+          p[male]{Mary Jane Knable}
+          }
+        p[female]{Emma Margaret Mader}
+        }
+      parent{
+        g[male]{Ben Edward Meek Sr. \\1912-1966}
+        p[male]{Buford Meek}
+        p[female]{Eva Rose Schnepp}
+        }
+        % union is not working, so I'm using a workaround
+      }
+    }
+    }
+  \end{tikzpicture}
+\end{center}
+\end{document}
