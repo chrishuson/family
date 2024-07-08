@@ -16,9 +16,19 @@
    %height=1cm, depth=0.3cm, node={align=center}
    }
 }}
+\gtrset{thirdlevelwide/.style={
+  box={width=1.55cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
+\gtrset{fourthlevelwide/.style={
+  box={width=1.65cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
 
 \begin{document}
-\subsection*{John and Maria's Descendant Family Tree}
+\subsection*{\quad John and Maria's Descendants}
   \vspace{2cm}
 \begin{center}
 \begin{tikzpicture}[scale=1]
@@ -47,7 +57,7 @@
       g[id=terry, secondlevel]{Theresa Marie Huson}
       p[id=jc]{John Andrew Culver}
       c[id=nicole]{Nicole Rosaria Culver}
-      c[id=marcus]{Marcus Hamilton Culver}
+      c[id=marcus,thirdlevelwide]{Marcus Hamilton Culver}
       c[id=nicole]{Elias Meek Culver}
       c[id=marcus]{Madeline Miracle Culver}
       c[id=nicole]{Patrice Grace Culver}
@@ -55,12 +65,12 @@
     child{
       p[id=rosemary]{Rosemary Laucks} %does not have a middle name
       child{
-        g[id=charlotte]{Charlotte Elizabeth}
+        g[id=charlotte,thirdlevelwide]{Charlotte Elizabeth Huson}
         p[id=chelsea]{Matthew Bruce Lane}
         c[id=hayden]{Morgan Rose Lane}
         c[id=finley]{Aubrey Eliza Lane}
       }
-      c[id=ben]{Benjamin John Huson}
+      c[id=ben,thirdlevelwide]{Benjamin John Huson}
       g[id=steve, secondlevel]{Stephen John Huson}
       union{
         p[id=tammy, secondlevel]{Tammy Sue Fisher}
@@ -69,9 +79,9 @@
     child{
       g[id=tim, secondlevel]{Timothy John Huson}
       p[id=anne, secondlevel]{Anne Braghetta} %does not have a middle name
-      c[id=peter]{Peter Braghetta Huson}
-      c[id=scott]{Scott Braghetta Huson}
-      c[id=teo]{Matthew Braghetta Huson}
+      c[id=peter,thirdlevelwide]{Peter Braghetta Huson}
+      c[id=scott,thirdlevelwide]{Scott Braghetta Huson}
+      c[id=teo,thirdlevelwide]{Matthew Braghetta Huson}
     }
     child{
       g[id=mike, secondlevel]{Michael John Huson}
@@ -86,7 +96,7 @@
         g[id=joe]{Joseph John Huson}
         p[id=megan]{Megan Erin Lyons}
         c[id=miles]{Miles Henry Huson}
-        c[id=lex]{Alexander Riley Huson}
+        c[id=lex,fourthlevelwide]{Alexander Riley Huson}
         c[id=theo]{Theodore Chase Huson}
       }
     }

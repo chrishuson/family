@@ -12,14 +12,14 @@
    }
 }}
 \gtrset{secondlevel/.style={
-  box={width=2cm,
+  box={width=1.9cm,
    %height=1cm, depth=0.3cm, node={align=center}
    }
 }}
 
 \begin{document}
-\subsection*{John and Maria's Ancestral Family Tree}
-  \vspace{2cm}
+\subsection*{Huson Ancestral Family Tree}
+  \vspace{1cm}
 \begin{center}
 \begin{tikzpicture}[scale=1]
 \genealogytree[
@@ -27,13 +27,13 @@ template=signpost,
 node size=1.5cm, level distance=1.0cm,
 ]{
   parent{
-  g[male]{Christopher John Huson}
-  c[female]{Theresa Marie Huson}
-  c[male]{Stephen John Huson}
-  c[male]{Timothy John Huson}
-  c[male]{Michael John Huson}
+    g[male, secondlevel]{Christopher John \\Huson \\1958-}
+    c[female]{Theresa Marie Huson \\1959-}
+    c[male]{Stephen John Huson \\1961-}
+    c[male]{Timothy John Huson \\1963-}
+    c[male]{Michael John Huson \\1965-}
   parent{
-    c[male]{George Roe Huson Jr. \\1929-}
+    c[male]{George Roe Huson Jr. \\1929-2022}
     g[male, firstlevel]{John Joseph Huson \\1934-}
     parent{
       c[female]{Charlotte Huson}
@@ -122,18 +122,18 @@ node size=1.5cm, level distance=1.0cm,
     }
     parent{
       g[female, firstlevel]{Marie Antoinette \\(Maria) Banet (Meek) \\1935-}
-      c[male]{Ben Edward Meek Jr.}
+      c[male]{Ben Edward Meek Jr. \\1949-}
       p[male]{Howard Banet \\1910-1974}
       parent{
-        g[female]{Marie Antoinette Clephas \\ 1913-1999} 
+        g[female]{Marie Antoinette Clephas \\1913-1999} 
         p[male]{Anthony Clephas \\1881-1942}
         p[female]{Agatha Brodbeck \\1882-1978}
         }
-        parent{
-          g[male]{Ben Edward Meek Sr.}
-          p[male]{Buford Meek}
-          p[female]{Eva Rose Schnepp}
-          }
+      parent{
+        g[male]{Ben Edward Meek Sr. \\1912-1966}
+        p[male]{Buford Meek}
+        p[female]{Eva Rose Schnepp}
+        }
         % union is not working, so I'm using a workaround
       }
     }
