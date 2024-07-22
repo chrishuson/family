@@ -1,5 +1,7 @@
 ## Ski Trip History
 
+January 2024 Steamboat Springs, Colorado
+
 February 2023 Breckenridge, Colorado
 
 February 2022 Telluride, Colorado
@@ -18,7 +20,7 @@ January 2016 Big Sky, Montana
 
 January 2015 Jackson Hole, Wyoming
 
-2014 Park City, Utah
+February 2014 Park City, Utah
 
 March 2013 Breckenridge, Colorado
 
