@@ -1,7 +1,7 @@
 # Jackson Hole 2025
 
 January 19-26, Sunday to Sunday, (MLK week)
-Fly into Jackson
+Fly into Jackson (JAC)
 
 [Private house](https://www.vrbo.com/2111111), short walk to base
 
@@ -21,7 +21,7 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 
 Name | Arrival | Departure |
 ---|---|----|
-Chris |  |  |
+Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark |
 Corey |  |  |
 Lance |  |  |
 Steve |  |  |
