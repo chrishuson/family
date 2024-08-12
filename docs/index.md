@@ -4,7 +4,8 @@ January 19-26, Sunday to Sunday, (MLK week)
 Fly into Jackson
 
 [Private house](https://www.vrbo.com/2111111), short walk to base
-7195 N. Rachel Way
+
+7195 N. Rachel Way /
 Teton Village, WY 83025
 
 Conditions and travel intell:
