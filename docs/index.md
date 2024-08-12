@@ -1,7 +1,11 @@
-# Jackson Hole 2025 - provisional dates
+# Jackson Hole 2025
 
-January 18/19-25/26, Saturday/Sunday to Saturday/Sunday, (MLK week)
+January 19-26, Sunday to Sunday, (MLK week)
 Fly into Jackson
+
+[Private house](https://www.vrbo.com/2111111), short walk to base
+7195 N. Rachel Way
+Teton Village, WY 83025
 
 Conditions and travel intell:
 [NOAA Forecast](https://forecast.weather.gov/MapClick.php?lat=43.704&lon=-110.4884),
@@ -16,7 +20,6 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 
 Name | Arrival | Departure |
 ---|---|----|
-John |  |  |
 Chris |  |  |
 Corey |  |  |
 Lance |  |  |
