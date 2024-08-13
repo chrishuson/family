@@ -23,7 +23,7 @@ Name | Arrival | Departure |
 ---|---|----|
 Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark |
 Corey |  |  |
-Lance |  |  |
+Lance | Sunday |  |
 Steve |  |  |
 Benjammin' |  |  |
 Charlotte |  |  |
