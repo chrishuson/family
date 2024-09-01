@@ -22,7 +22,7 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 Name | Arrival | Departure |
 ---|---|----|
 Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark |
-Corey |  |  |
+Corey | 12:16 Sunday DL SLC | 7:15am Friday |
 Lance | Sunday |  |
 Steve |  |  |
 Benjammin' |  |  |
