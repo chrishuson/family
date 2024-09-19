@@ -21,8 +21,9 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 
 Name | Arrival | Departure |
 ---|---|----|
-Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark |
 Corey | 12:16 Sunday DL SLC | 7:15am Friday |
+Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark |
+Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas |
 Lance | Sunday |  |
 Steve |  |  |
 Benjammin' |  |  |
@@ -31,7 +32,6 @@ Tim |  |  |
 Peter |  |  |
 Scott |  |  |
 Teo |  |  |
-Mike |  |  |
 Joe |  |  |
 Patrick |  |  |
 Margaret |  |  |
