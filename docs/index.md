@@ -30,10 +30,10 @@ Benjammin' |  |  |
 Charlotte |  |  |
 Tim |  |  |
 Scott |  |  |
-Teo |  |  |
 Joe |  |  |
 Patrick |  |  |
 Margaret |  |  |
 Lance | regrets |  |
+Teo | regrets |  |
 
 [ski trip history](ski-trip-history)
