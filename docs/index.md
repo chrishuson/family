@@ -24,16 +24,16 @@ Name | Arrival | Departure |
 Corey | 12:16 Sunday DL SLC | 7:15am Friday |
 Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark |
 Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas |
-Lance | Sunday |  |
+Peter | 2:39 Sunday UA SF | 3:49 Friday UA SF |
 Steve |  |  |
 Benjammin' |  |  |
 Charlotte |  |  |
 Tim |  |  |
-Peter |  |  |
 Scott |  |  |
 Teo |  |  |
 Joe |  |  |
 Patrick |  |  |
 Margaret |  |  |
+Lance | regrets |  |
 
 [ski trip history](ski-trip-history)
