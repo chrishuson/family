@@ -24,11 +24,11 @@ Name | Arrival | Departure |
 Steve | 11:05 Sunday AS SEA | 11:45 Saturday AS SEA |
 Corey | 12:16 Sunday DL SLC | 7:15am Friday |
 Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark |
+Tim | 1:17 Sunday UA Denver | 2:57 Sunday AA DFW |
 Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas |
 Peter | 2:39 Sunday UA SF | 3:49 Friday UA SF |
 Benjammin' |  |  |
 Charlotte |  |  |
-Tim |  |  |
 Scott |  |  |
 Joe |  |  |
 Patrick |  |  |
