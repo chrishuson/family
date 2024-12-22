@@ -28,12 +28,11 @@ Tim | 1:17 Sunday UA Denver | 2:57 Sunday AA DFW | |
 Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas | |
 Peter | 2:39 Sunday UA SF | 3:49 Friday UA SF | |
 Benjammin' |  |  | |
-Matt |  |  | |
-Tim |  |  | |
-Scott |  |  | |
 Joe | Sunday | Thursday/Friday | |
-Patrick |  |  | |
 Margaret | Wednesday SEA | Sunday | |
+Matt |  |  | |
+Scott |  |  | |
+Patrick |  |  | |
 Lance | regrets |  | |
 Teo | regrets |  | |
 
