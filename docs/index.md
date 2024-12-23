@@ -21,13 +21,13 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 
 Name | Arrival | Departure | Ski gear from airport |
 ---|---|----|----|
-Steve | 11:05 Sunday AS #3314 SEA | 11:45 Saturday AS #3314 SEA | large ski/board bag, large boot bag |
+Steve | 11:05 Sunday AS #3314 SEA | 11:45 Saturday AS #3314 SEA | Large ski/board bag, large boot bag |
 Corey | 12:16 Sunday DL SLC | 7:15am Friday | none |
 Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark | Snowboard bag |
 Tim | 1:17 Sunday UA #2193 Denver | 2:57 Sunday AA #1883 DFW | none |
-Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas | ? |
+Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas | Board bag |
 Peter | 2:39 Sunday UA #1824 SF | 3:49 Friday UA #394 SF | Skis & Boots|
-Joe | Sunday | Thursday/Friday | skis and boots |
+Joe | Sunday | Thursday/Friday | Skis and boots |
 Margaret | Wednesday SEA | Sunday | ? |
 Benjammin' |  |  | |
 Patrick |  |  | |
