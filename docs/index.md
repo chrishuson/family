@@ -24,15 +24,16 @@ Name | Arrival | Departure | Ski gear from airport |
 Steve | 11:05 Sunday AS SEA | 11:45 Saturday AS SEA | |
 Corey | 12:16 Sunday DL SLC | 7:15am Friday | none |
 Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark | Snowboard bag |
-Tim | 1:17 Sunday UA Denver | 2:57 Sunday AA DFW | |
+Tim | 1:17 Sunday UA #2193 Denver | 2:57 Sunday AA #1883 DFW | none |
 Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas | |
-Peter | 2:39 Sunday UA SF | 3:49 Friday UA SF | |
-Benjammin' |  |  | |
+Peter | 2:39 Sunday UA #1824 SF | 3:49 Friday UA #394 SF | Skis & Boots|
 Joe | Sunday | Thursday/Friday | |
 Margaret | Wednesday SEA | Sunday | |
-Matt |  |  | |
-Scott |  |  | |
+Benjammin' |  |  | |
 Patrick |  |  | |
+Scott |  |  | |
+Matt |  |  | |
+Charlotte | regrets |  | |
 Lance | regrets |  | |
 Teo | regrets |  | |
 
