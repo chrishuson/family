@@ -31,8 +31,8 @@ Joe | Sunday | Thursday/Friday | Skis and boots |
 Margaret | 8:47pm Wednesday UA756 Denver | 2:32 Saturday UA1663 Denver | none |
 Benjammin' |  |  | |
 Patrick |  |  | |
-Scott |  |  | |
 Matt |  |  | |
+Scott | regrets |  | |
 Charlotte | regrets |  | |
 Lance | regrets |  | |
 Teo | regrets |  | |
