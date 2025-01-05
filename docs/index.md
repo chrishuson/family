@@ -30,8 +30,8 @@ Peter | 2:39 Sunday UA #1824 SF | 3:49 Friday UA #394 SF | Skis & Boots|
 Joe | Sunday | Thursday/Friday | Skis and boots |
 Margaret | 8:47pm Wednesday UA756 Denver | 2:32 Saturday UA1663 Denver | none |
 Benjammin' |  |  | |
-Patrick |  |  | |
 Matt |  |  | |
+Patrick | regrets |  | |
 Scott | regrets |  | |
 Charlotte | regrets |  | |
 Lance | regrets |  | |
