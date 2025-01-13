@@ -25,7 +25,7 @@ Steve | 11:05 Sunday AS #3314 SEA | 11:45 Saturday AS #3314 SEA | Large ski/boar
 Corey | 12:16 Sunday DL SLC | 7:15am Friday | none |
 Matt | 12:15 Sunday DL #2282 SLC | 1:10pm Saturday DL2282 SLC | Hard ski case & Boots |
 Chris | 12:51 Sunday UA #1752 Newark | 8:00am Sunday UA Newark | Snowboard bag |
-Benjammin' | 12:51 Sunday UA #1752 Newark  | 10:45am Saturday UA293 Denver | |
+Benjammin' | 12:51 Sunday UA #1752 Newark  | 10:45am Saturday UA293 Denver | Skis, Snowboard, & Boots |
 Tim | 1:17 Sunday UA #2193 Denver | 2:57 Sunday AA #1883 DFW | none |
 Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas | Board bag |
 Joe | 2:24 Sunday Dallas | 1:53 Friday Dallas | Skis and boots |
