@@ -23,13 +23,13 @@ Name | Arrival | Departure | Ski gear from airport |
 ---|---|----|----|
 Steve | 11:05 Sunday AS #3314 SEA | 11:45 Saturday AS #3314 SEA | Large ski/board bag, large boot bag |
 Corey | 12:16 Sunday DL SLC | 7:15am Friday | none |
-Chris | 1:05 Sunday UA Newark | 8:00am Sunday UA Newark | Snowboard bag |
+Chris | 12:51 Sunday UA Newark | 8:00am Sunday UA Newark | Snowboard bag |
+Benjammin' | 12:51 Sunday UA Newark  | 10:45am Saturday UA293 Denver | |
 Tim | 1:17 Sunday UA #2193 Denver | 2:57 Sunday AA #1883 DFW | none |
 Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas | Board bag |
 Joe | 2:24 Sunday Dallas | 1:53 Friday Dallas | Skis and boots |
 Peter | 2:39 Sunday UA #1824 SF | 3:49 Friday UA #394 SF | Skis & Boots|
 Margaret | 8:47pm Wednesday UA756 Denver | 2:32 Saturday UA1663 Denver | none |
-Benjammin' |  |  | |
 Matt |  |  | |
 Patrick | regrets |  | |
 Scott | regrets |  | |
