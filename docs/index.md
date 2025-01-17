@@ -19,8 +19,8 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 "Who's hungry?!"
 ![Chef Mike!](0903ski_JacksonHole_Mike.jpg)
 
-Name | Arrival | Departure | Ski gear from airport |
----|---|----|----|
+Name | Arrival | Departure | Ski gear from airport | USAA # |
+---|---|----|----|----|
 Steve | 11:05 Sunday AS #3314 SEA | 11:45 Saturday AS #3314 SEA | Large ski/board bag, large boot bag |
 Corey | 12:16 Sunday DL SLC | 7:15am Friday | none |
 Matt | 12:15 Sunday DL #2282 SLC | 1:10pm Saturday DL2282 SLC | Hard ski case & Boots |
