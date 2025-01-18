@@ -1,4 +1,6 @@
-## Ski Trip History
+# Ski Trip History
+
+January 2025 Jackson Hole, Wyoming
 
 January 2024 Steamboat Springs, Colorado
 

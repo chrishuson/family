@@ -30,7 +30,7 @@ Tim | 1:17 Sunday UA #2193 Denver | 2:57 Sunday AA #1883 DFW | none | 3542566 |
 Mike | 2:24 Sunday Dallas | 1:53 Friday Dallas | Board bag | Nope |
 Joe | 2:24 Sunday Dallas | 1:53 Friday Dallas | Skis and boots |  |
 Peter | 2:39 Sunday UA #1824 SF | 3:49 Friday UA #394 SF | Skis & Boots| Yes |
-Margaret | 8:47pm Wednesday UA756 Denver | 2:32 Saturday UA1663 Denver | none |  |
+Margaret | regrets | | |  |
 Patrick | regrets |  | |
 Scott | regrets |  | |
 Charlotte | regrets |  | |
