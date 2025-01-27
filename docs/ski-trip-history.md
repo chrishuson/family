@@ -34,4 +34,26 @@ March 2010 Big Sky, Montana
 
 March 2009 Jackson Hole, Wyoming
 
+March 2008 Park City, Utah
+
 January 2007 Breckenridge, Colorado
+
+March 2006 Sun Valley, Idaho
+
+January 2005 Telluride, Colorado
+
+January 2004 Heavenly Valley, Nevada
+
+January 2003 Aspen, Colorado
+
+January 2002 Steamboat Springs, Colorado
+
+February 2001 Big Sky, Montana
+
+March 2000 Whistler, Vancouver
+
+February 1999 Breckenridge, Colorado
+
+1998 Jackson Hole, Wyoming
+
+March 1997 Park City, Utah
