@@ -15,6 +15,11 @@
    %height=1cm, depth=0.3cm, node={align=center}
    }
 }}
+\gtrset{thirdlevelwide/.style={
+  box={width=1.6cm,
+   %height=1cm, depth=0.3cm, node={align=center}
+   }
+}}
 
 \begin{document}
 \subsection*{\; Huson Family Tree}
@@ -23,7 +28,7 @@
 \begin{tikzpicture}[scale=1]
   \genealogytree[
     template=signpost, 
-    node size=1.5cm, level distance=1.5cm,
+    node size=1.4cm, level distance=1.5cm,
     ]{
   child{
     g[id=john, firstlevel]{Grandpa John}
@@ -40,6 +45,7 @@
       child{
         g[id=grace]{Grace}
         p[id=corey]{Corey}
+        c[id=emerson, thirdlevelwide]{Emerson}
       }
     }
     child{
@@ -54,10 +60,11 @@
     child{
       p[id=rosemary, secondlevel]{Rosemary}
       child{
-        g[id=charlotte,secondlevel]{Charlotte }
-        p[id=chelsea]{Matt}
-        c[id=hayden]{Morgan}
-        c[id=finley]{Aubrey}
+        g[id=charlotte,thirdlevelwide]{Charlotte }
+        p[id=matt]{Matt}
+        c[id=morgan]{Morgan}
+        c[id=aubrey]{Aubrey}
+        c[id=wesley]{Wesley}
       }
       c[id=ben]{Ben}
       g[id=steve, secondlevel]{Steve}
@@ -74,7 +81,7 @@
     }
     child{
       g[id=mike, secondlevel]{Mike}
-      p[id=karol]{Karol}
+      p[id=karol, secondlevel]{Karol}
       child{
         g[id=lily]{Lily}
         p[id=jd]{JD}
@@ -87,6 +94,7 @@
         c[id=miles]{Miles}
         c[id=lex]{Lex}
         c[id=theo]{Theo}
+        c[id=artie]{Artie}
       }
     }
   }
