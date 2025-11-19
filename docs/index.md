@@ -1,15 +1,15 @@
-# Jackson Hole 2025
+# Park City 2026
 
-January 19-26, Sunday to Sunday, (MLK week)
-Fly into Jackson (JAC)
+January 24-31, Saturday to Saturday
+Fly into Salt Lake City (SLC)
 
-[Private house](https://www.vrbo.com/2111111), short walk to base
+[Private house](https://www.parkcitylodging.com/rentals/1021-park-avenue), short walk to Town Lift
 
-7195 N. Rachel Way /
-Teton Village, WY 83025
+1021 Park Avenue
+Park City, US UT 84060
 
 Conditions and travel intell:
-[NOAA Forecast](https://forecast.weather.gov/MapClick.php?lat=43.704&lon=-110.4884),
+[NOAA Forecast](https://forecast.weather.gov/MapClick.php?lat=40.6511&lon=-111.5084),
 [Ski blog](https://www.ski.com/blog/),
 [Snowbrains](https://snowbrains.com/)
 
@@ -19,22 +19,21 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 "Who's hungry?!"
 ![Chef Mike!](0903ski_JacksonHole_Mike.jpg)
 
-Name | Arrival | Departure | Ski gear from airport | Car |
----|---|----|----|----|
-Steve | | | Large ski/board bag, large boot bag | 003199106 |
-Corey |  |  | none | Nope |
-Matt |  |  | Hard ski case & boots | Yes |
-Chris |  |  | Board bag | 2345311 |
-Benjammin' |  |  | Skis, snowboard, & boots | 010464036 |
-Tim |  |  | none | 3542566 |
-Mike |  |  | Board bag | Nope |
-Joe |  |  | Skis & boots | Nope |
-Peter |  |  | Skis & boots| 015024608 |
-Margaret |  | | |  |
+Name | Arrival | Departure | Ski gear from airport |
+---|---|----|----|
+Chris | Saturday 2:30 DL0917 JFK | Saturday 11:15am DL2033 EWR | Board bag |
+Steve | | | Large ski/board bag, large boot bag |
+Tim |  |  | none |
+Mike |  |  | Board bag |
+Benjammin' |  |  | Skis, snowboard, & boots |
+Joe |  |  | Skis & boots |
+Peter |  |  | Skis & boots|
+Matt |  |  | Hard ski case & boots |
+Lance |  |  | |
+Corey |  |  | none |
+Margaret |  | | |
 Patrick |  |  | |
 Scott |  |  | |
-Charlotte |  |  | |
-Lance |  |  | |
-Teo |  |  | |
+Teo | regrets |  | |
 
 [ski trip history](ski-trip-history)
