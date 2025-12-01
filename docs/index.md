@@ -22,13 +22,13 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 Name | Arrival | Departure | Ski gear from airport |
 ---|---|----|----|
 Chris | Saturday 2:30 DL0917 JFK | Saturday 11:15am DL2033 EWR | Board bag |
+Peter | Saturday 4:00 UA4802 | Saturday 1:47 UA2101 | Skis & boots|
 Margaret | Saturday | Wednesday | |
 Steve | | | Large ski/board bag, large boot bag |
 Tim |  |  | none |
 Mike |  |  | Board bag |
 Benjammin' |  |  | Skis, snowboard, & boots |
 Joe |  |  | Skis & boots |
-Peter |  |  | Skis & boots|
 Matt |  |  | Hard ski case & boots |
 Lance |  |  | |
 Corey |  |  | |
