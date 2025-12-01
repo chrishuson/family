@@ -22,6 +22,7 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 Name | Arrival | Departure | Ski gear from airport |
 ---|---|----|----|
 Chris | Saturday 2:30 DL0917 JFK | Saturday 11:15am DL2033 EWR | Board bag |
+Margaret | Saturday | Wednesday | |
 Steve | | | Large ski/board bag, large boot bag |
 Tim |  |  | none |
 Mike |  |  | Board bag |
@@ -30,10 +31,9 @@ Joe |  |  | Skis & boots |
 Peter |  |  | Skis & boots|
 Matt |  |  | Hard ski case & boots |
 Lance |  |  | |
-Corey |  |  | none |
-Margaret |  | | |
-Patrick |  |  | |
+Corey |  |  | |
 Scott |  |  | |
+Patrick | regrets |  | |
 Teo | regrets |  | |
 
 [ski trip history](ski-trip-history)
