@@ -23,10 +23,10 @@ Name | Arrival | Departure | Ski gear from airport |
 ---|---|----|----|
 Chris | Saturday 2:30 DL0917 JFK | Saturday 11:15am DL2033 EWR | Board bag |
 Peter | Saturday 4:00 UA4802 | Saturday 1:47 UA2101 | Skis & boots|
-Margaret | Saturday | Wednesday | |
+Margaret | Saturday 8:46pm UA2410 IAD | Wednesday 10:05am UA688 IAD | |
+Mike | Saturday | Friday | Board bag |
 Steve | | | Large ski/board bag, large boot bag |
 Tim |  |  | none |
-Mike |  |  | Board bag |
 Benjammin' |  |  | Skis, snowboard, & boots |
 Joe |  |  | Skis & boots |
 Matt |  |  | Hard ski case & boots |
