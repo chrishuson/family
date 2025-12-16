@@ -31,8 +31,8 @@ Benjammin' |  |  | Skis, snowboard, & boots |
 Joe |  |  | Skis & boots |
 Matt |  |  | Hard ski case & boots |
 Lance |  |  | |
-Corey |  |  | |
 Scott |  |  | |
+Corey | regrets |  | |
 Patrick | regrets |  | |
 Teo | regrets |  | |
 
