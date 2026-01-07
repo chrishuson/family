@@ -21,6 +21,7 @@ Please review the [grocery list](https://docs.google.com/document/d/1i4ODs6pL9yM
 
 Name | Arrival | Departure | Ski gear from airport |
 ---|---|----|----|
+Lance | Saturday 1:33pm AA | TBD | none? |
 Steve | Saturday 2:28pm DL1265 | Saturday 11:11am DL2995 | Large ski/board bag, large boot bag |
 Chris | Saturday 2:30pm DL0917 JFK | Saturday 11:15am DL2033 EWR | Board bag |
 Tim | Saturday 3:26pm UA5572 DEN | Saturday 10:05pm UA688 IAD | none |
@@ -30,7 +31,6 @@ Mike | Saturday 8:26pm AA2878 | Friday 10:04am AA1029 | Board bag |
 Margaret | Saturday 8:46pm UA2410 IAD | Wednesday 10:05am UA688 IAD | |
 Benjammin' |  |  | Skis, snowboard, & boots |
 Joe |  |  | Skis & boots |
-Lance |  |  | |
 Scott | regrets |  | |
 Corey | regrets |  | |
 Patrick | regrets |  | |
