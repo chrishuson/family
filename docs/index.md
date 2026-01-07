@@ -31,7 +31,7 @@ Margaret | Saturday 8:46pm UA2410 IAD | Wednesday 10:05am UA688 IAD | |
 Benjammin' |  |  | Skis, snowboard, & boots |
 Joe |  |  | Skis & boots |
 Lance |  |  | |
-Scott |  |  | |
+Scott | regrets |  | |
 Corey | regrets |  | |
 Patrick | regrets |  | |
 Teo | regrets |  | |
