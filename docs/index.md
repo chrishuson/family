@@ -28,7 +28,7 @@ Tim | Saturday 3:26pm UA5572 DEN | Thursday 8:25pm UA2181 SFO | none |
 Peter | Saturday 4:00pm UA4802 | Saturday 1:47pm UA2101 | Skis & boots|
 Matt | Saturday 4:01pm DL0575 | Saturday 9:49am DL0657 | Hard ski case & boots |
 Benjammin' | Saturday 4:01pm DL0575 | Saturday 9:49am DL0657 | Skis, snowboard, & boots |
-Mike | Saturday 8:26pm AA2878 | Friday 10:04am AA1029 | Board bag |
+Mike | Saturday 8:26pm AA2878 | Friday 10:04am AA1029 (or might be earlier) | Board bag |
 Joe | Saturday 8:26pm AA2878 | Friday 10:04am AA1029 | Skis & boots |
 Margaret | Saturday 8:46pm UA2410 IAD | Wednesday 10:05am UA688 IAD | |
 Scott | regrets |  | |
