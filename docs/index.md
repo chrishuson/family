@@ -24,7 +24,7 @@ Name | Arrival | Departure | Ski gear from airport |
 Lance | Saturday 1:33pm AA | TBD | none? |
 Steve | Saturday 2:28pm DL1265 | Saturday 11:11am DL2995 | Large ski/board bag, large boot bag |
 Chris | Saturday 2:30pm DL0917 JFK | Saturday 11:15am DL2033 EWR | Board bag |
-Tim | Saturday 3:26pm UA5572 DEN | Saturday 10:05am UA688 IAD | none |
+Tim | Saturday 3:26pm UA5572 DEN | Thursday 8:25pm UA2181 SFO | none |
 Peter | Saturday 4:00pm UA4802 | Saturday 1:47pm UA2101 | Skis & boots|
 Matt | Saturday 4:01pm DL0575 | Saturday 9:49am DL0657 | Hard ski case & boots |
 Benjammin' | Saturday 4:01pm DL0575 | Saturday 9:49am DL0657 | Skis, snowboard, & boots |
