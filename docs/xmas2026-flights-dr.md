@@ -16,7 +16,7 @@
 | Santo Domingo (SDQ) | Casa de Campo: about 50 minutes; plan roughly an hour door to door | **Yes** — JetBlue and Delta | **No** | Not a shared nonstop gateway |
 | Punta Cana (PUJ) | Cap Cana: about 10–20 minutes; Casa de Campo: about 50 minutes, or roughly an hour door to door | **Yes** — American, JetBlue, and Delta | **Yes** — American and United on the holiday dates | **Use this airport** |
 
-Cap Cana is the easy airport choice. Casa de Campo is still practical through PUJ, but it adds a private road transfer. There is no schedule reason to move the New York travelers to LGA or EWR: JFK has several daily PUJ choices.
+Cap Cana is the easy airport choice. Casa de Campo is still practical through PUJ, but it adds a private road transfer. JFK has several daily PUJ choices.
 
 ## New York — JFK to PUJ
 
@@ -63,8 +63,32 @@ The two lap infants are not simply "free international passengers":
 - **Delta:** generally charges 10% of the adult fare plus international taxes and fees.
 - **United:** add each infant during booking and confirm the quoted international infant ticket and taxes before comparing totals.
 
+## Arrival airport — everyone flies into PUJ
+
+There is no closer shared gateway: **La Romana (LRM) has no nonstop from either JFK or ORD** (confirmed 2026-07-24), and Santo Domingo (SDQ) has a JFK nonstop but nothing from ORD. So the whole group flies nonstop into **Punta Cana (PUJ)**.
+
+- **Cap Cana:** PUJ is 15–20 minutes from the villa — simplest.
+- **Casa de Campo:** about a one-hour private road transfer from PUJ, the same for everyone (New York and Chicago alike).
+
+## Flight budget estimate (Dec 22–29, 2026)
+
+Group = **8 occupied seats + 2 lap infants** (New York: 4 seats + Emerson; Chicago: 4 seats + Avery). Holiday-week nonstop economy; figures are estimates to re-verify at booking, since exact-date checkout fares were not exposed on 2026-07-19.
+
+| Origin | Seats | Est. RT per seat | Seats subtotal | + lap infant |
+| --- | --- | --- | --- | --- |
+| New York (JFK) | 4 | \$500–800 | \$2,000–3,200 | ~\$100–200 (Emerson) |
+| Chicago (ORD) | 4 | \$550–900 | \$2,200–3,600 | ~\$100–200 (Avery) |
+| **Group total** | **8 (+2 infants)** | — | **≈ \$4,400–7,200** | plus checked bags |
+
+Charlotte bonus (if John & Maria join): CLT–PUJ roughly \$450–700 RT per seat × 2 ≈ \$900–1,400.
+
+Airfare is essentially the **same for either DR choice** — the difference is ground transfer, not the ticket:
+
+- **Cap Cana:** PUJ ↔ villa 15–20 min; a private van each way is minor (~\$60–100 per way).
+- **Casa de Campo:** PUJ ↔ Casa de Campo ~1 hr each way for the whole group; budget roughly **\$300–600 round trip** across the group's vehicles, plus the resort's daily access fee (\$30 per adult, \$15 per child, per night — see `../lodging/dominican_republic_research.md`).
+
 ## Takeaway
 
-**Fly everyone nonstop to PUJ. Cap Cana is 10–20 minutes away; Casa de Campo remains workable with an approximately one-hour private transfer.**
+Everyone flies nonstop into **PUJ**. **Cap Cana** is the simplest — 15–20 minutes from the villa. **Casa de Campo** works too, with an hour's private transfer from PUJ for the whole group.
 
 **How these were found:** Checked 2026-07-19 using the [JetBlue](https://www.jetblue.com/en/flights-from-new-york-to-punta-cana), [American](https://www.aa.com/en-us/flights-from-chicago-to-punta-cana), [Delta](https://www.delta.com/us/en/flight-deals/overview), and [United](https://www.united.com/) sites; Google Flights route pages; current date-range timetables from [Flight.info](https://www.flight.info/) and [ZborDirect](https://zbordirect.com/en/tools/schedule?arrival_city=PUJ&departure_city=NYC); route checks from [FlightConnections](https://www.flightconnections.com/); and official access pages from [Casa de Campo](https://www.casadecampo.com.do/how-to-get-here/) and [Cap Cana](https://capcana.com/). Exact holiday fare checkout results should be re-verified before booking.
