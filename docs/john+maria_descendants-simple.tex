@@ -1,6 +1,27 @@
 \documentclass{article}
+% Paper size -- see john+maria_descendants.tex for the full explanation.
+% Tabloid print (this is the one Chris hangs):
+%   pdflatex -jobname john+maria_descendants-simple-17x11 \
+%     '\def\Paper{paperwidth=17in,paperheight=11in,margin=0.5in}\input{john+maria_descendants-simple}'
+\providecommand{\Paper}{legalpaper,landscape,margin=0.5cm}
 \usepackage{geometry}
-\geometry{legalpaper, landscape, top=4cm, margin=0.5cm}
+\expandafter\geometry\expandafter{\Paper}
+\usepackage{graphicx}
+
+% Scale the tree to fill the text block, limited by whichever of width or height
+% binds first, so any paper size works without hand-tuning the gtr box widths.
+\newsavebox{\RawTree}
+\newsavebox{\FitTree}
+\newcommand{\ShowTree}{%
+  \sbox{\FitTree}{\resizebox{\textwidth}{!}{\usebox{\RawTree}}}%
+  \ifdim\dimexpr\ht\FitTree+\dp\FitTree\relax>\TreeHeight
+    \sbox{\FitTree}{\resizebox{!}{\TreeHeight}{\usebox{\RawTree}}}%
+  \fi
+  \usebox{\FitTree}%
+}
+
+\newlength{\TitleSize}
+\newlength{\TreeHeight}
 
 \usepackage[all]{genealogytree}
 \usepackage{tikz}
@@ -22,15 +43,27 @@
 }}
 
 \begin{document}
-\subsection*{\; Huson Family Tree}
-  \vspace{0.5cm}
-\begin{center}
+\pagestyle{empty}
+\setlength{\TitleSize}{\dimexpr\textwidth/60\relax}
+\setlength{\TreeHeight}{\dimexpr\textheight-6\TitleSize\relax}
+
+\vspace*{\fill}
+\begingroup\centering
+{\fontsize{\TitleSize}{1.2\TitleSize}\selectfont\bfseries Descendants of John and Maria Huson}
+
+\vspace{3\TitleSize}
+
+\sbox{\RawTree}{%
 \begin{tikzpicture}[scale=1]
   \genealogytree[
     template=signpost, 
     node size=1.4cm, level distance=1.5cm,
     ]{
-  child{
+  % pivot shift moves ONLY the top couple, not the tree's bounding box, so it
+  % centers John+Maria under the centered title.  The value is in tree
+  % coordinates (cm), so it survives any paper size / \ShowTree scale.
+  % Re-tune it if the tree's shape changes (add/remove a branch).
+  child[pivot shift=-2.76cm]{
     g[id=john, firstlevel]{Grandpa John}
     p[id=maria, firstlevel]{Gran Maria}
     child{
@@ -100,6 +133,8 @@
     }
   }
   }
-  \end{tikzpicture}
-\end{center}
+  \end{tikzpicture}}%
+\ShowTree
+\par\endgroup
+\vspace*{\fill}
 \end{document}

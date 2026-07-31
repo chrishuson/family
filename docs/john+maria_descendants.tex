@@ -1,10 +1,45 @@
 \documentclass{article}
+
+% ---------------------------------------------------------------------------
+% Paper size.  Default is US legal, landscape (14 x 8.5 in).
+%
+% The tree is wrapped in \adjustbox{...,keepaspectratio} below, so it scales to
+% fill the text block in whichever dimension binds first -- change the paper and
+% the tree follows, with no hand-tuning of box widths.  Build another size
+% without editing this file:
+%
+%   pdflatex -jobname john+maria_descendants-17x11 \
+%     "\def\Paper{paperwidth=17in,paperheight=11in,margin=0.5in}\input{john+maria_descendants}"
+%
+%   pdflatex -jobname john+maria_descendants-36x24 \
+%     "\def\Paper{paperwidth=36in,paperheight=24in,margin=1in}\input{john+maria_descendants}"
+%
+% See CLAUDE.md ("Printing the family trees") for paper-size recommendations.
+% ---------------------------------------------------------------------------
+\providecommand{\Paper}{legalpaper,landscape,margin=0.5cm}
 \usepackage{geometry}
-\geometry{legalpaper, landscape, top=4cm, margin=0.5cm}
+\expandafter\geometry\expandafter{\Paper}
+\usepackage{graphicx}
+
+% Scale the tree to fill the text block, limited by whichever of width or height
+% binds first, so any paper size works without hand-tuning the gtr box widths.
+\newsavebox{\RawTree}
+\newsavebox{\FitTree}
+\newcommand{\ShowTree}{%
+  \sbox{\FitTree}{\resizebox{\textwidth}{!}{\usebox{\RawTree}}}%
+  \ifdim\dimexpr\ht\FitTree+\dp\FitTree\relax>\TreeHeight
+    \sbox{\FitTree}{\resizebox{!}{\TreeHeight}{\usebox{\RawTree}}}%
+  \fi
+  \usebox{\FitTree}%
+}
 
 \usepackage[all]{genealogytree}
 \usepackage{tikz}
 \usetikzlibrary{trees}
+
+% Title scales with the paper so it stays proportionate on poster-size prints.
+\newlength{\TitleSize}
+\newlength{\TreeHeight}
 
 \gtrset{firstlevel/.style={
   box={width=2.7cm,
@@ -28,12 +63,20 @@
 }}
 
 \begin{document}
-\subsection*{\quad John and Maria's Descendants}
-  \vspace{2cm}
-\begin{center}
+\pagestyle{empty}
+\setlength{\TitleSize}{\dimexpr\textwidth/60\relax}
+\setlength{\TreeHeight}{\dimexpr\textheight-6\TitleSize\relax}
+
+\vspace*{\fill}
+\begingroup\centering
+{\fontsize{\TitleSize}{1.2\TitleSize}\selectfont\bfseries John and Maria's Descendants}
+
+\vspace{3\TitleSize}
+
+\sbox{\RawTree}{%
 \begin{tikzpicture}[scale=1]
   \genealogytree[
-    template=signpost, 
+    template=signpost,
     node size=1.5cm, level distance=1.5cm,
     ]{
   child{
@@ -106,6 +149,8 @@
     }
   }
   }
-  \end{tikzpicture}
-\end{center}
+  \end{tikzpicture}}%
+\ShowTree
+\par\endgroup
+\vspace*{\fill}
 \end{document}

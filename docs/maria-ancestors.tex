@@ -1,6 +1,28 @@
 \documentclass{article}
+% Paper size -- same build-time switch as john+maria_descendants.tex.
+% Companion print (hangs beside the descendants chart):
+%   pdflatex -jobname maria-ancestors-17x11 \
+%     '\def\Paper{paperwidth=17in,paperheight=11in,margin=0.5in}\input{maria-ancestors}'
+\providecommand{\Paper}{legalpaper,landscape,margin=0.5cm}
 \usepackage{geometry}
-\geometry{legalpaper, landscape, top=2cm, margin=0.5cm}
+\expandafter\geometry\expandafter{\Paper}
+\usepackage{graphicx}
+
+% Scale the tree to fill the text block, limited by whichever of width or height
+% binds first, so any paper size works without hand-tuning the gtr box widths.
+\newsavebox{\RawTree}
+\newsavebox{\FitTree}
+\newcommand{\ShowTree}{%
+  \sbox{\FitTree}{\resizebox{\textwidth}{!}{\usebox{\RawTree}}}%
+  \ifdim\dimexpr\ht\FitTree+\dp\FitTree\relax>\TreeHeight
+    \sbox{\FitTree}{\resizebox{!}{\TreeHeight}{\usebox{\RawTree}}}%
+  \fi
+  \usebox{\FitTree}%
+}
+
+% Title scales with the paper so it matches the descendants chart at any size.
+\newlength{\TitleSize}
+\newlength{\TreeHeight}
 
 \usepackage[all]{genealogytree}
 \usepackage{tikz}
@@ -18,9 +40,17 @@
 }}
 
 \begin{document}
-\subsection*{\quad John and Maria's Ancestral Family Trees}
-  \vspace{1cm}
-\begin{center}
+\pagestyle{empty}
+\setlength{\TitleSize}{\dimexpr\textwidth/60\relax}
+\setlength{\TreeHeight}{\dimexpr\textheight-6\TitleSize\relax}
+
+\vspace*{\fill}
+\begingroup\centering
+{\fontsize{\TitleSize}{1.2\TitleSize}\selectfont\bfseries Huson Family Tree (Maria's detail)}
+
+\vspace{3\TitleSize}
+
+\sbox{\RawTree}{%
 \begin{tikzpicture}[scale=1]
 \genealogytree[
 template=signpost, 
@@ -149,6 +179,8 @@ node size=1.5cm, level distance=0.8cm,
       }
     }
     }
-  \end{tikzpicture}
-\end{center}
+  \end{tikzpicture}}%
+\ShowTree
+\par\endgroup
+\vspace*{\fill}
 \end{document}
